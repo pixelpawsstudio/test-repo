@@ -3,7 +3,14 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Layer 5
+  - Layer 4
+  - Layer 6
+  - Layer 1
+  - Layer 2
+  - Layer 3
+  - Facing Collider
   layers:
   - Default
   - TransparentFX
@@ -40,4 +47,7 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Player
+    uniqueID: 1314224323
     locked: 0
