@@ -46,8 +46,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   activeInParty: 0
   characterName: 
-  battleCharacter: {fileID: 114936555224100760, guid: 4328a21e0bda083459640c15c86b0706,
-    type: 3}
+  battleCharacter: {fileID: 114936555224100760, guid: 4328a21e0bda083459640c15c86b0706, type: 3}
   level: 1
   maxLevel: 99
   currentHP: 23
@@ -174,8 +173,7 @@ MonoBehaviour:
   critical: 6
   equippedOffenseItem: 
   equippedDefenseItem: 
-  characterIamge: {fileID: 2434629766918126224, guid: 5dee9006179220145ba7295536490dbc,
-    type: 3}
+  characterIamge: {fileID: 2434629766918126224, guid: 5dee9006179220145ba7295536490dbc, type: 3}
   poisoned: 0
   silenced: 0
 --- !u!1 &1190594902282344
@@ -485,8 +483,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   activeInParty: 0
   characterName: 
-  battleCharacter: {fileID: 114936555224100760, guid: f17e04cb1413faf49b2c8a8cd2347a84,
-    type: 3}
+  battleCharacter: {fileID: 114936555224100760, guid: f17e04cb1413faf49b2c8a8cd2347a84, type: 3}
   level: 3
   maxLevel: 99
   currentHP: 30
@@ -613,8 +610,7 @@ MonoBehaviour:
   critical: 12
   equippedOffenseItem: 
   equippedDefenseItem: 
-  characterIamge: {fileID: 8558633213039616950, guid: 5dee9006179220145ba7295536490dbc,
-    type: 3}
+  characterIamge: {fileID: 8558633213039616950, guid: 5dee9006179220145ba7295536490dbc, type: 3}
   poisoned: 0
   silenced: 0
 --- !u!1 &1674758041330280
@@ -664,8 +660,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   activeInParty: 1
   characterName: 
-  battleCharacter: {fileID: 114017839349114026, guid: ecea49df1db86304a90af0bfb696f2ae,
-    type: 3}
+  battleCharacter: {fileID: 114017839349114026, guid: ecea49df1db86304a90af0bfb696f2ae, type: 3}
   level: 1
   maxLevel: 99
   currentHP: 25
@@ -792,8 +787,7 @@ MonoBehaviour:
   critical: 9
   equippedOffenseItem: 
   equippedDefenseItem: 
-  characterIamge: {fileID: 699703873648253923, guid: 5dee9006179220145ba7295536490dbc,
-    type: 3}
+  characterIamge: {fileID: 699703873648253923, guid: 5dee9006179220145ba7295536490dbc, type: 3}
   poisoned: 0
   silenced: 0
 --- !u!61 &5972835153688257000
@@ -887,8 +881,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   activeInParty: 0
   characterName: 
-  battleCharacter: {fileID: 114017839349114026, guid: 677b5a5140259fe4b9057ea872fa5953,
-    type: 3}
+  battleCharacter: {fileID: 114017839349114026, guid: 677b5a5140259fe4b9057ea872fa5953, type: 3}
   level: 3
   maxLevel: 99
   currentHP: 30
@@ -1015,7 +1008,6 @@ MonoBehaviour:
   critical: 9
   equippedOffenseItem: 
   equippedDefenseItem: 
-  characterIamge: {fileID: -7214362519570876188, guid: 5f9c6213e97ae28468411d896f31d404,
-    type: 3}
+  characterIamge: {fileID: -7214362519570876188, guid: 5f9c6213e97ae28468411d896f31d404, type: 3}
   poisoned: 0
   silenced: 0
