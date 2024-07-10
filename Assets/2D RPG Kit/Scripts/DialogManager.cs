@@ -77,7 +77,7 @@ public class DialogManager : MonoBehaviour {
         if(dialogBox.activeInHierarchy)
         {
             //Progress through the lines by pressing the following buttons
-            if(Input.GetButtonUp("RPGConfirmPC") || Input.GetButtonUp("RPGConfirmJoy") || CrossPlatformInputManager.GetButtonUp("RPGConfirmTouch"))
+            if(Input.GetButtonUp("Submit") || Input.GetButtonUp("RPGConfirmJoy") || CrossPlatformInputManager.GetButtonUp("RPGConfirmTouch"))
             {
                 //Check if dialog just opened without any progression
                 if (!justStarted)

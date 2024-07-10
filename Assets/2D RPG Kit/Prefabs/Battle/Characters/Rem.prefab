@@ -72,8 +72,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 971942665
-  m_SortingLayer: 5
+  m_SortingLayerID: -22200541
+  m_SortingLayer: 2
   m_SortingOrder: 2
   m_Sprite: {fileID: 21300024, guid: 31c2316ca8401de439f450d95d650653, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -121,8 +121,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   anim: {fileID: 8258887681006716508}
   spriteRenderer: {fileID: 0}
-  defeatedSprite: {fileID: 1854990784135541863, guid: 27dbc76a92eead94ebb2736fc7e7f488,
-    type: 3}
+  defeatedSprite: {fileID: 1854990784135541863, guid: 27dbc76a92eead94ebb2736fc7e7f488, type: 3}
   aliveSprite: {fileID: 21300024, guid: 31c2316ca8401de439f450d95d650653, type: 3}
   portrait: {fileID: 699703873648253923, guid: 5dee9006179220145ba7295536490dbc, type: 3}
   HPBar: {fileID: 0}

@@ -11,9 +11,9 @@ GameObject:
   - component: {fileID: 7299989987978432644}
   - component: {fileID: 7299989987978432647}
   - component: {fileID: 7299989987978432645}
-  - component: {fileID: 7299989987978432646}
+  - component: {fileID: 3274595606071178048}
   m_Layer: 0
-  m_Name: Pushable Block
+  m_Name: Pushable Block Collider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -132,22 +132,33 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.122078, y: 1.5588655}
   m_EdgeRadius: 0
---- !u!114 &7299989987978432646
-MonoBehaviour:
+--- !u!50 &3274595606071178048
+Rigidbody2D:
+  serializedVersion: 4
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7299989987978432761}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4b3608b9c1c445b49a322eb513edd4ad, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isMoveable: 1
-  moveDirection: 6
-  waitTime: 0
-  moveSpeed: 1
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 70
+  m_LinearDrag: 5
+  m_AngularDrag: 5
+  m_GravityScale: 0
+  m_Material: {fileID: 6200000, guid: bbaa51ebdc089ed4eb6af25909f4aed3, type: 2}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
 --- !u!1 &7299989989497747542
 GameObject:
   m_ObjectHideFlags: 0
@@ -218,8 +229,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -76193021
-  m_SortingLayer: 0
+  m_SortingLayerID: 1314224323
+  m_SortingLayer: 1
   m_SortingOrder: -1
   m_Sprite: {fileID: 2537882373423050008, guid: c8ab1a70b3c012f48aef68404eed443b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
