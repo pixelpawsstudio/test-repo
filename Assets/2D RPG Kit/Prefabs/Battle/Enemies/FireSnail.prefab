@@ -118,7 +118,7 @@ MonoBehaviour:
   - {fileID: 3808743505478804103, guid: 2998e86dd507167469f719d501819410, type: 3}
   - {fileID: 3808743505478804103, guid: 2998e86dd507167469f719d501819410, type: 3}
   - {fileID: 3808743505478804103, guid: e20e7e925961cfa4cb3b0924d3b81c5b, type: 3}
-  characterName: Snake
+  characterName: FireSnail
   currentHp: 15
   maxHP: 15
   currentSP: 0

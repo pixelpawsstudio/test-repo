@@ -18,11 +18,11 @@ public class ScreenFade : MonoBehaviour {
     public float fadeSpeed;
     
     //Check to allow fade in/out
-    [HideInInspector]
+    //[HideInInspector]
     public bool fadeToBlack;
-    [HideInInspector]
+    //[HideInInspector]
     public bool fadeFromBlack;
-    [HideInInspector]
+    //[HideInInspector]
     public bool fading = false;
 
 	// Use this for initialization

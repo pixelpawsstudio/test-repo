@@ -173,11 +173,13 @@ public class GameMenu : MonoBehaviour {
 	void Update () {
 
         //Open game menu
-        if (Input.GetButtonDown("RPGMenuPC") || Input.GetButtonDown("RPGMenuJoy"))
+        if (Input.GetKeyDown(KeyCode.Q))
         {
+            Debug.Log("Abriendo menu");
             //Check if game menu can be opened. For example the game menu should not open during dialog or battle
             if (ScreenFade.instance.fading == false && !GameManager.instance.battleActive && !GameManager.instance.dialogActive && !GameManager.instance.shopActive && !GameManager.instance.innActive && !GameManager.instance.saveMenuActive && !GameManager.instance.cutSceneActive)
             {
+
                 if (!menu.activeInHierarchy)
                 {
                     AudioManager.instance.PlaySFX(openMenuButtonSound);
@@ -198,6 +200,8 @@ public class GameMenu : MonoBehaviour {
                         EventSystem.current.SetSelectedGameObject(null);
                     }
                 }
+
+                Debug.Log("activandoooo");
                     menu.SetActive(true);
                     UpdateMainStats();
                     GameManager.instance.gameMenuOpen = true;
@@ -218,7 +222,8 @@ public class GameMenu : MonoBehaviour {
         //Close game menu
         if (!GameManager.instance.battleActive)
         {
-            if (Input.GetButtonDown("RPGCanclePC") || Input.GetButtonDown("RPGCancleJoy"))
+            Debug.Log("Desactivando menu");
+            if (Input.GetKeyDown(KeyCode.Q))
             {
                 if (GameManager.instance.gameMenuOpen)
                 {
@@ -562,6 +567,7 @@ public class GameMenu : MonoBehaviour {
             EventSystem.current.SetSelectedGameObject(null);
             touchBackButton.SetActive(true);
         }        
+
 
         menu.SetActive(true);
         UpdateMainStats();
