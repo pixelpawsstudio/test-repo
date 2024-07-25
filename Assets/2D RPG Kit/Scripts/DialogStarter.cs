@@ -304,6 +304,7 @@ public class DialogStarter : MonoBehaviour {
         //Check for button input
         if (Input.GetButtonDown("Submit"))
         {
+            Debug.Log("Presionando enter");
             
             if (canActivate && !DialogManager.instance.dialogBox.activeInHierarchy && !Inn.instance.innMenu.activeInHierarchy && !GameMenu.instance.menu.activeInHierarchy && !GameManager.instance.battleActive)
             {

@@ -1773,8 +1773,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ddca49db092ebb4eaff9affbb973350, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  toolbar: 3
-  currentTab: Skills
+  toolbar: 2
+  currentTab: Prefabs
   usable: 0
   buttonValue: 0
   spriteRenderer: {fileID: 212760558863176084}
@@ -1894,7 +1894,7 @@ MonoBehaviour:
   - {fileID: 114017839349114026, guid: ecea49df1db86304a90af0bfb696f2ae, type: 3}
   - {fileID: 114936555224100760, guid: 4328a21e0bda083459640c15c86b0706, type: 3}
   - {fileID: 114936555224100760, guid: f17e04cb1413faf49b2c8a8cd2347a84, type: 3}
-  - {fileID: 114017839349114026, guid: 677b5a5140259fe4b9057ea872fa5953, type: 3}
+  - {fileID: 114936555224100760, guid: 9fcf2bdc50512044fa9742b401444d5d, type: 3}
   enemyPrefabs:
   - {fileID: 114895784032005762, guid: 50dfc597023a36844b3918cbbcd96036, type: 3}
   - {fileID: 114895784032005762, guid: 0e2dc2e83d0d8514ab6102c59e9d106e, type: 3}
@@ -1903,6 +1903,7 @@ MonoBehaviour:
   - {fileID: 114895784032005762, guid: fc7885e032d7f18409f13d66ff6b7f7d, type: 3}
   - {fileID: 114895784032005762, guid: 6e73f5777a945044d9b7b442fce059ca, type: 3}
   - {fileID: 114895784032005762, guid: 211241e6fe03ac04c90c58e141f2b112, type: 3}
+  - {fileID: 114895784032005762, guid: 04bf63c66cbc1fc40bf1395ec200722d, type: 3}
   - {fileID: 114895784032005762, guid: a8e622fdf3f914d46b67674648f68709, type: 3}
   enemyAttackEffect: {fileID: 1261278678591276, guid: 67aaab33d8f46774fb89c9aebaaa1801, type: 3}
   characterTurnIndicator: {fileID: 3546183991522720056, guid: 0db26846bf973244996f290dbb93aec5, type: 3}
@@ -17409,7 +17410,7 @@ MonoBehaviour:
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
+    m_VerticalOverflow: 1
     m_LineSpacing: 1
   m_Text: Item Description
 --- !u!114 &7098911315871523795

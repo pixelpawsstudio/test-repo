@@ -235,7 +235,6 @@ public class Block : MonoBehaviour
         {
             isBeingInteractedWith = true;
             currentTime = waitTime;
-            
         }
     }
 

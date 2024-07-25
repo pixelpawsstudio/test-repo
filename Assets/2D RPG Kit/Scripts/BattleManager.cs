@@ -201,7 +201,7 @@ public class BattleManager : MonoBehaviour
         //Check if any of these menus are active to be able to cancle out of them
         if(itemMenu.activeInHierarchy || targetEnemyMenu.activeInHierarchy || skillMenu.activeInHierarchy)
         {
-            if(Input.GetButtonDown("RPGCanclePC") || Input.GetButtonDown("RPGCancleJoy") || CrossPlatformInputManager.GetButtonDown("RPGCancleTouch"))
+            if(Input.GetKeyDown(KeyCode.C) || Input.GetButtonDown("RPGCanclePC") || Input.GetButtonDown("RPGCancleJoy") || CrossPlatformInputManager.GetButtonDown("RPGCancleTouch"))
                 
                 if(targetCharacterMenu.activeInHierarchy)
                 {
