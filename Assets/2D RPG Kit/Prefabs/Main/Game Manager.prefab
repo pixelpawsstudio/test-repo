@@ -350,7 +350,11 @@ MonoBehaviour:
   - Overworld
   - Overworld1
   - Inn
+<<<<<<< HEAD
   - key1Found
+=======
+  - Room2Chest1
+>>>>>>> 44fc692d3cf2e51b3e2a2b31b87ea1a95d67b504
   openedChests: 
 --- !u!114 &114145718813029494
 MonoBehaviour:
