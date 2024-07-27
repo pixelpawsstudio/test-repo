@@ -177,7 +177,7 @@ public class GameMenu : MonoBehaviour {
         {
             Debug.Log("Abriendo menu");
             //Check if game menu can be opened. For example the game menu should not open during dialog or battle
-            if (ScreenFade.instance.fading == false && !GameManager.instance.battleActive && !GameManager.instance.dialogActive && !GameManager.instance.shopActive && !GameManager.instance.innActive && !GameManager.instance.saveMenuActive && !GameManager.instance.cutSceneActive)
+            if (ScreenFade.instance.fading == false && !GameManager.instance.battleActive && !GameManager.instance.dialogActive && !GameManager.instance.shopActive && !GameManager.instance.innActive && !GameManager.instance.saveMenuActive && !GameManager.instance.gameMenuOpen)
             {
 
                 if (!menu.activeInHierarchy)
@@ -220,10 +220,10 @@ public class GameMenu : MonoBehaviour {
         }
         
         //Close game menu
-        if (!GameManager.instance.battleActive)
+        if (!GameManager.instance.battleActive && GameManager.instance.gameMenuOpen)
         {
             Debug.Log("Desactivando menu");
-            if (Input.GetKeyDown(KeyCode.Q))
+            if (Input.GetKeyDown(KeyCode.E))
             {
                 if (GameManager.instance.gameMenuOpen)
                 {
