@@ -7,6 +7,7 @@ public class EnemyChase : MonoBehaviour
     Transform player;
     [SerializeField] float speed;
     bool isChasing = false;
+    public Animator animator;
 
     // Start is called before the first frame update
     void Start()
@@ -25,6 +26,9 @@ public class EnemyChase : MonoBehaviour
             Vector2 direction = player.position - transform.position;
             direction.Normalize();
             transform.position += (Vector3)direction * Time.deltaTime * speed;
+
+            animator.SetFloat("moveX", transform.position.x);
+            animator.SetFloat("moveY", transform.position.y);
         }
     }
 
