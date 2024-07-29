@@ -122,6 +122,16 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!212 &10637207 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 5171780444615484056, guid: 04fb7b1ef28b08e419fd3b5243387947, type: 3}
+  m_PrefabInstance: {fileID: 628667424}
+  m_PrefabAsset: {fileID: 0}
+--- !u!212 &63313062 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 5878740650887199762, guid: 04fb7b1ef28b08e419fd3b5243387947, type: 3}
+  m_PrefabInstance: {fileID: 628667424}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &94407374
 GameObject:
   m_ObjectHideFlags: 0
@@ -1496,6 +1506,198 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5171780444615484054, guid: 04fb7b1ef28b08e419fd3b5243387947, type: 3}
+      propertyPath: bodyUp
+      value: 
+      objectReference: {fileID: -8150692161239652809, guid: 25c66a954ad7cd441927691357c2b238, type: 3}
+    - target: {fileID: 5171780444615484054, guid: 04fb7b1ef28b08e419fd3b5243387947, type: 3}
+      propertyPath: dialog
+      value: 
+      objectReference: {fileID: 11400000, guid: 296ff25d8eeae524b8567184e01e31b9, type: 2}
+    - target: {fileID: 5171780444615484054, guid: 04fb7b1ef28b08e419fd3b5243387947, type: 3}
+      propertyPath: headUp
+      value: 
+      objectReference: {fileID: 409452382209452902, guid: 25c66a954ad7cd441927691357c2b238, type: 3}
+    - target: {fileID: 5171780444615484054, guid: 04fb7b1ef28b08e419fd3b5243387947, type: 3}
+      propertyPath: bodyDown
+      value: 
+      objectReference: {fileID: -8208199307919308370, guid: 25c66a954ad7cd441927691357c2b238, type: 3}
+    - target: {fileID: 5171780444615484054, guid: 04fb7b1ef28b08e419fd3b5243387947, type: 3}
+      propertyPath: bodyLeft
+      value: 
+      objectReference: {fileID: 8943540920285716788, guid: 25c66a954ad7cd441927691357c2b238, type: 3}
+    - target: {fileID: 5171780444615484054, guid: 04fb7b1ef28b08e419fd3b5243387947, type: 3}
+      propertyPath: headDown
+      value: 
+      objectReference: {fileID: 659580568616700208, guid: 25c66a954ad7cd441927691357c2b238, type: 3}
+    - target: {fileID: 5171780444615484054, guid: 04fb7b1ef28b08e419fd3b5243387947, type: 3}
+      propertyPath: headLeft
+      value: 
+      objectReference: {fileID: 1409059356627455167, guid: 25c66a954ad7cd441927691357c2b238, type: 3}
+    - target: {fileID: 5171780444615484054, guid: 04fb7b1ef28b08e419fd3b5243387947, type: 3}
+      propertyPath: bodyRight
+      value: 
+      objectReference: {fileID: -5290479830164994379, guid: 25c66a954ad7cd441927691357c2b238, type: 3}
+    - target: {fileID: 5171780444615484054, guid: 04fb7b1ef28b08e419fd3b5243387947, type: 3}
+      propertyPath: headRight
+      value: 
+      objectReference: {fileID: 5879030519747019554, guid: 25c66a954ad7cd441927691357c2b238, type: 3}
+    - target: {fileID: 5171780444615484054, guid: 04fb7b1ef28b08e419fd3b5243387947, type: 3}
+      propertyPath: displayName
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5171780444615484054, guid: 04fb7b1ef28b08e419fd3b5243387947, type: 3}
+      propertyPath: questToMark
+      value: Visit shop
+      objectReference: {fileID: 0}
+    - target: {fileID: 5171780444615484054, guid: 04fb7b1ef28b08e419fd3b5243387947, type: 3}
+      propertyPath: markComplete
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5171780444615484054, guid: 04fb7b1ef28b08e419fd3b5243387947, type: 3}
+      propertyPath: activateOnAwake
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5171780444615484054, guid: 04fb7b1ef28b08e419fd3b5243387947, type: 3}
+      propertyPath: lines.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5171780444615484054, guid: 04fb7b1ef28b08e419fd3b5243387947, type: 3}
+      propertyPath: bodySpriteRenderer
+      value: 
+      objectReference: {fileID: 10637207}
+    - target: {fileID: 5171780444615484054, guid: 04fb7b1ef28b08e419fd3b5243387947, type: 3}
+      propertyPath: headSpriteRenderer
+      value: 
+      objectReference: {fileID: 63313062}
+    - target: {fileID: 5171780444615484054, guid: 04fb7b1ef28b08e419fd3b5243387947, type: 3}
+      propertyPath: lines.Array.data[0]
+      value: //SHOP KEEPER
+      objectReference: {fileID: 0}
+    - target: {fileID: 5171780444615484054, guid: 04fb7b1ef28b08e419fd3b5243387947, type: 3}
+      propertyPath: lines.Array.data[1]
+      value: '**'
+      objectReference: {fileID: 0}
+    - target: {fileID: 5171780444615484054, guid: 04fb7b1ef28b08e419fd3b5243387947, type: 3}
+      propertyPath: lines.Array.data[2]
+      value: Welcome to my shop!
+      objectReference: {fileID: 0}
+    - target: {fileID: 5171780444615484054, guid: 04fb7b1ef28b08e419fd3b5243387947, type: 3}
+      propertyPath: lines.Array.data[3]
+      value: Hope you are not here for the magic truffles. I just sold the last one.
+      objectReference: {fileID: 0}
+    - target: {fileID: 5171780444615484054, guid: 04fb7b1ef28b08e419fd3b5243387947, type: 3}
+      propertyPath: portraits.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5171780444615484054, guid: 04fb7b1ef28b08e419fd3b5243387947, type: 3}
+      propertyPath: shopItems.Array.size
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 5171780444615484054, guid: 04fb7b1ef28b08e419fd3b5243387947, type: 3}
+      propertyPath: sayGoodBye.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5171780444615484054, guid: 04fb7b1ef28b08e419fd3b5243387947, type: 3}
+      propertyPath: finalMessage.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5171780444615484054, guid: 04fb7b1ef28b08e419fd3b5243387947, type: 3}
+      propertyPath: portraits.Array.data[0]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5171780444615484054, guid: 04fb7b1ef28b08e419fd3b5243387947, type: 3}
+      propertyPath: portraits.Array.data[1]
+      value: 
+      objectReference: {fileID: 2434629766918126224, guid: 5dee9006179220145ba7295536490dbc, type: 3}
+    - target: {fileID: 5171780444615484054, guid: 04fb7b1ef28b08e419fd3b5243387947, type: 3}
+      propertyPath: portraits.Array.data[2]
+      value: 
+      objectReference: {fileID: 2434629766918126224, guid: 5dee9006179220145ba7295536490dbc, type: 3}
+    - target: {fileID: 5171780444615484054, guid: 04fb7b1ef28b08e419fd3b5243387947, type: 3}
+      propertyPath: shopItems.Array.data[0]
+      value: 
+      objectReference: {fileID: 114378626586349076, guid: 26e1e121bffd9124991f910e445b649e, type: 3}
+    - target: {fileID: 5171780444615484054, guid: 04fb7b1ef28b08e419fd3b5243387947, type: 3}
+      propertyPath: shopItems.Array.data[1]
+      value: 
+      objectReference: {fileID: 114774137024542062, guid: a7b4b1d88b65cf34baa3634512ccd0bb, type: 3}
+    - target: {fileID: 5171780444615484054, guid: 04fb7b1ef28b08e419fd3b5243387947, type: 3}
+      propertyPath: shopItems.Array.data[2]
+      value: 
+      objectReference: {fileID: 114774137024542062, guid: a09f0bc9df97ac4429fd49e029e1d598, type: 3}
+    - target: {fileID: 5171780444615484054, guid: 04fb7b1ef28b08e419fd3b5243387947, type: 3}
+      propertyPath: shopItems.Array.data[3]
+      value: 
+      objectReference: {fileID: 114774137024542062, guid: e577f80afa0643846a26c0c1dd996b3f, type: 3}
+    - target: {fileID: 5171780444615484054, guid: 04fb7b1ef28b08e419fd3b5243387947, type: 3}
+      propertyPath: shopItems.Array.data[4]
+      value: 
+      objectReference: {fileID: 114378626586349076, guid: f193ca26bc8eea64aa531ad52a7a167e, type: 3}
+    - target: {fileID: 5171780444615484054, guid: 04fb7b1ef28b08e419fd3b5243387947, type: 3}
+      propertyPath: shopItems.Array.data[5]
+      value: 
+      objectReference: {fileID: 114774137024542062, guid: 1db0ec4c63b1e744a956d28f292eb97c, type: 3}
+    - target: {fileID: 5171780444615484054, guid: 04fb7b1ef28b08e419fd3b5243387947, type: 3}
+      propertyPath: shopItems.Array.data[6]
+      value: 
+      objectReference: {fileID: 114774137024542062, guid: a03d9ab26ef458b4687ad17671d5256f, type: 3}
+    - target: {fileID: 5171780444615484054, guid: 04fb7b1ef28b08e419fd3b5243387947, type: 3}
+      propertyPath: shopItems.Array.data[7]
+      value: 
+      objectReference: {fileID: 114126653972101484, guid: 125c20b1bd9a1124a8ef6d3ea3522635, type: 3}
+    - target: {fileID: 5171780444615484054, guid: 04fb7b1ef28b08e419fd3b5243387947, type: 3}
+      propertyPath: shopItems.Array.data[8]
+      value: 
+      objectReference: {fileID: 114043814178531382, guid: 8767ec0556333f549998000557dcbc31, type: 3}
+    - target: {fileID: 5171780444615484054, guid: 04fb7b1ef28b08e419fd3b5243387947, type: 3}
+      propertyPath: sayGoodBye.Array.data[0]
+      value: //SHOP KEEPER
+      objectReference: {fileID: 0}
+    - target: {fileID: 5171780444615484054, guid: 04fb7b1ef28b08e419fd3b5243387947, type: 3}
+      propertyPath: sayGoodBye.Array.data[1]
+      value: Good bye!
+      objectReference: {fileID: 0}
+    - target: {fileID: 5171780444615484054, guid: 04fb7b1ef28b08e419fd3b5243387947, type: 3}
+      propertyPath: ItemsForSale.Array.data[3]
+      value: Hi Potion
+      objectReference: {fileID: 0}
+    - target: {fileID: 5171780444615484054, guid: 04fb7b1ef28b08e419fd3b5243387947, type: 3}
+      propertyPath: ItemsForSale.Array.data[4]
+      value: Elixir
+      objectReference: {fileID: 0}
+    - target: {fileID: 5171780444615484054, guid: 04fb7b1ef28b08e419fd3b5243387947, type: 3}
+      propertyPath: ItemsForSale.Array.data[5]
+      value: DEF Raiser
+      objectReference: {fileID: 0}
+    - target: {fileID: 5171780444615484054, guid: 04fb7b1ef28b08e419fd3b5243387947, type: 3}
+      propertyPath: ItemsForSale.Array.data[6]
+      value: STR Raiser
+      objectReference: {fileID: 0}
+    - target: {fileID: 5171780444615484054, guid: 04fb7b1ef28b08e419fd3b5243387947, type: 3}
+      propertyPath: ItemsForSale.Array.data[7]
+      value: Sword
+      objectReference: {fileID: 0}
+    - target: {fileID: 5171780444615484054, guid: 04fb7b1ef28b08e419fd3b5243387947, type: 3}
+      propertyPath: ItemsForSale.Array.data[8]
+      value: Shield
+      objectReference: {fileID: 0}
+    - target: {fileID: 5171780444615484054, guid: 04fb7b1ef28b08e419fd3b5243387947, type: 3}
+      propertyPath: finalMessage.Array.data[0]
+      value: //SHOP KEEPER
+      objectReference: {fileID: 0}
+    - target: {fileID: 5171780444615484054, guid: 04fb7b1ef28b08e419fd3b5243387947, type: 3}
+      propertyPath: finalMessage.Array.data[1]
+      value: '**'
+      objectReference: {fileID: 0}
+    - target: {fileID: 5171780444615484054, guid: 04fb7b1ef28b08e419fd3b5243387947, type: 3}
+      propertyPath: finalMessage.Array.data[2]
+      value: Good bye!
+      objectReference: {fileID: 0}
+    - target: {fileID: 5171780444615484055, guid: 04fb7b1ef28b08e419fd3b5243387947, type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 5171780444615484055, guid: 04fb7b1ef28b08e419fd3b5243387947, type: 3}
       propertyPath: m_LocalPosition.x
       value: -3.52
@@ -1536,9 +1738,53 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5171780444615484056, guid: 04fb7b1ef28b08e419fd3b5243387947, type: 3}
+      propertyPath: m_Size.x
+      value: 1.0625
+      objectReference: {fileID: 0}
+    - target: {fileID: 5171780444615484056, guid: 04fb7b1ef28b08e419fd3b5243387947, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 8943540920285716788, guid: 25c66a954ad7cd441927691357c2b238, type: 3}
+    - target: {fileID: 5171780444615484056, guid: 04fb7b1ef28b08e419fd3b5243387947, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5171780444615484057, guid: 04fb7b1ef28b08e419fd3b5243387947, type: 3}
+      propertyPath: m_Size.x
+      value: 2.2721987
+      objectReference: {fileID: 0}
+    - target: {fileID: 5171780444615484057, guid: 04fb7b1ef28b08e419fd3b5243387947, type: 3}
+      propertyPath: m_Size.y
+      value: 1.1047924
+      objectReference: {fileID: 0}
+    - target: {fileID: 5171780444615484057, guid: 04fb7b1ef28b08e419fd3b5243387947, type: 3}
+      propertyPath: m_Offset.x
+      value: -0.89466214
+      objectReference: {fileID: 0}
+    - target: {fileID: 5171780444615484057, guid: 04fb7b1ef28b08e419fd3b5243387947, type: 3}
+      propertyPath: m_Offset.y
+      value: 0.0725857
+      objectReference: {fileID: 0}
     - target: {fileID: 5171780444615484059, guid: 04fb7b1ef28b08e419fd3b5243387947, type: 3}
       propertyPath: m_Name
       value: Shop Keeper
+      objectReference: {fileID: 0}
+    - target: {fileID: 5878740650887199762, guid: 04fb7b1ef28b08e419fd3b5243387947, type: 3}
+      propertyPath: m_Size.x
+      value: 1.0625
+      objectReference: {fileID: 0}
+    - target: {fileID: 5878740650887199762, guid: 04fb7b1ef28b08e419fd3b5243387947, type: 3}
+      propertyPath: m_Size.y
+      value: 0.875
+      objectReference: {fileID: 0}
+    - target: {fileID: 5878740650887199762, guid: 04fb7b1ef28b08e419fd3b5243387947, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 1409059356627455167, guid: 25c66a954ad7cd441927691357c2b238, type: 3}
+    - target: {fileID: 5878740650887199762, guid: 04fb7b1ef28b08e419fd3b5243387947, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4909,11 +5155,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 114882825115530484, guid: 64d2c8884948e1d4d82cda544b880100, type: 3}
       propertyPath: scene
-      value: Village
+      value: VillageIch
       objectReference: {fileID: 0}
     - target: {fileID: 114882825115530484, guid: 64d2c8884948e1d4d82cda544b880100, type: 3}
       propertyPath: teleportName
-      value: Shop
+      value: VillageShopTeleport
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

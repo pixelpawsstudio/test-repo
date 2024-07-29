@@ -67,7 +67,6 @@ public class BattleManager : MonoBehaviour
 
 
     //For initiation of the correct number of characters and enemies
-    [HideInInspector]
     public List<BattleCharacter> activeBattlers = new List<BattleCharacter>();
 
     //For initiation of the correct number of enemie buttons in the enemy target menu
@@ -420,6 +419,7 @@ public class BattleManager : MonoBehaviour
                 {
                     if (playerStats[i].characterName == characterPrefabs[j].characterName)
                     {
+                        Debug.Log("Player stats: " + playerStats[j].characterName.ToString());
                         //Instantiate every active character at their i positions
                         BattleCharacter newCaracter = Instantiate(characterPrefabs[j], Vector3.zero, characterPositions[i].rotation);
                         newCaracter.transform.parent = characterPositions[i];
@@ -1287,7 +1287,10 @@ public class BattleManager : MonoBehaviour
                 {
                     skillButtons[i].gameObject.SetActive(true);
 
+                    Debug.Log("Active battlers " + activeBattlers.Count);
+                    Debug.Log("Current turn active battler: " + activeBattlers[currentTurn]);
                     skillButtons[i].skill = activeBattlers[currentTurn].skills[i].skill.skillName;
+                    
                     skillButtons[i].nameText.text = skillButtons[i].skill;
 
                     for (int j = 0; j < skillList.Length; j++)

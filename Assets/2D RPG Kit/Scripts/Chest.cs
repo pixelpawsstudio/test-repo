@@ -61,7 +61,7 @@ public class Chest : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetButtonDown("RPGConfirmPC") || Input.GetButtonDown("RPGConfirmJoy") || CrossPlatformInputManager.GetButton("RPGConfirmTouch") || CrossPlatformInputManager.GetButtonUp("RPGConfirmTouch"))
+        if (Input.GetButtonDown("Submit") || Input.GetButtonDown("RPGConfirmPC") || Input.GetButtonDown("RPGConfirmJoy") || CrossPlatformInputManager.GetButton("RPGConfirmTouch") || CrossPlatformInputManager.GetButtonUp("RPGConfirmTouch"))
         {
             if (canActivate && !DialogManager.instance.dialogBox.activeInHierarchy && !Inn.instance.innMenu.activeInHierarchy && !GameMenu.instance.menu.activeInHierarchy)
             {

@@ -1773,8 +1773,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ddca49db092ebb4eaff9affbb973350, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  toolbar: 2
-  currentTab: Prefabs
+  toolbar: 3
+  currentTab: Skills
   usable: 0
   buttonValue: 0
   spriteRenderer: {fileID: 212760558863176084}
@@ -1892,9 +1892,9 @@ MonoBehaviour:
   - {fileID: 4246963203763316}
   characterPrefabs:
   - {fileID: 114017839349114026, guid: ecea49df1db86304a90af0bfb696f2ae, type: 3}
+  - {fileID: 114936555224100760, guid: 9fcf2bdc50512044fa9742b401444d5d, type: 3}
   - {fileID: 114936555224100760, guid: 4328a21e0bda083459640c15c86b0706, type: 3}
   - {fileID: 114936555224100760, guid: f17e04cb1413faf49b2c8a8cd2347a84, type: 3}
-  - {fileID: 114936555224100760, guid: 9fcf2bdc50512044fa9742b401444d5d, type: 3}
   enemyPrefabs:
   - {fileID: 114895784032005762, guid: 50dfc597023a36844b3918cbbcd96036, type: 3}
   - {fileID: 114895784032005762, guid: 0e2dc2e83d0d8514ab6102c59e9d106e, type: 3}
@@ -1925,6 +1925,7 @@ MonoBehaviour:
   - {fileID: 3808743505478804103, guid: e20e7e925961cfa4cb3b0924d3b81c5b, type: 3}
   - {fileID: 3808743505478804103, guid: 1f8f07031d905b249ac9cf8234f109cb, type: 3}
   - {fileID: 3808743505478804103, guid: 3e056caccd6121b48aef18491b4fcc51, type: 3}
+  - {fileID: 3808743505478804103, guid: d0ba8c3b651e4054aaf63b5664733522, type: 3}
   skillCost: 0
   skillDescriptionText: {fileID: 7116460694152071431}
   skillButtons:

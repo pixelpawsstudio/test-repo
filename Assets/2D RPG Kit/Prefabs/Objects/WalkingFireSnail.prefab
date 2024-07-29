@@ -331,6 +331,14 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: b4e302749fc3cc24d9d8342646b22dba, type: 3}
     - target: {fileID: 9030749063508831567, guid: 015fba17eb1ff464f8710b845b84e9ed, type: 3}
+      propertyPath: activateOnExit
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9030749063508831567, guid: 015fba17eb1ff464f8710b845b84e9ed, type: 3}
+      propertyPath: battleCollider
+      value: 
+      objectReference: {fileID: 8187111902669969269}
+    - target: {fileID: 9030749063508831567, guid: 015fba17eb1ff464f8710b845b84e9ed, type: 3}
       propertyPath: encounterRateEasy
       value: 6
       objectReference: {fileID: 0}
@@ -348,7 +356,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9030749063508831567, guid: 015fba17eb1ff464f8710b845b84e9ed, type: 3}
       propertyPath: randomBattles.Array.data[0].enemies.Array.data[0]
-      value: Bat
+      value: FireSnail
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -358,5 +366,10 @@ PrefabInstance:
 --- !u!4 &8187111902669969268 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 9030749063508831561, guid: 015fba17eb1ff464f8710b845b84e9ed, type: 3}
+  m_PrefabInstance: {fileID: 922635978930567741}
+  m_PrefabAsset: {fileID: 0}
+--- !u!61 &8187111902669969269 stripped
+BoxCollider2D:
+  m_CorrespondingSourceObject: {fileID: 9030749063508831560, guid: 015fba17eb1ff464f8710b845b84e9ed, type: 3}
   m_PrefabInstance: {fileID: 922635978930567741}
   m_PrefabAsset: {fileID: 0}

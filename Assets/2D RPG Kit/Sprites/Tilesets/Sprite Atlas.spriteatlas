@@ -456,6 +456,22 @@ SpriteAtlas:
     - a7d692048e20c1e44b31b13c5a3a143d: -3044759361422347511
     - a7d692048e20c1e44b31b13c5a3a143d: 3807257438876814715
     - a7d692048e20c1e44b31b13c5a3a143d: 5154424330881927195
+    - b5a63ad86f7e2cc48b6209995955a0d2: -86043063
+    - b5a63ad86f7e2cc48b6209995955a0d2: -458823272
+    - b5a63ad86f7e2cc48b6209995955a0d2: -1815409118
+    - b5a63ad86f7e2cc48b6209995955a0d2: 1280461012
+    - b5a63ad86f7e2cc48b6209995955a0d2: -505274278
+    - b5a63ad86f7e2cc48b6209995955a0d2: 319392192
+    - b5a63ad86f7e2cc48b6209995955a0d2: 781407509
+    - b5a63ad86f7e2cc48b6209995955a0d2: 1158714225
+    - b5a63ad86f7e2cc48b6209995955a0d2: 735915423
+    - b5a63ad86f7e2cc48b6209995955a0d2: 1870771116
+    - b5a63ad86f7e2cc48b6209995955a0d2: 354499870
+    - b5a63ad86f7e2cc48b6209995955a0d2: 2132542739
+    - b5a63ad86f7e2cc48b6209995955a0d2: 2104289827
+    - b5a63ad86f7e2cc48b6209995955a0d2: 1177189811
+    - b5a63ad86f7e2cc48b6209995955a0d2: -1486956366
+    - b5a63ad86f7e2cc48b6209995955a0d2: 237210804
     - e886be5b6b871aa498607264d26716f4: 8660526791039896768
     - e886be5b6b871aa498607264d26716f4: 9134792938753193834
     - e886be5b6b871aa498607264d26716f4: -426139393451775752
@@ -581,6 +597,7 @@ SpriteAtlas:
     - e886be5b6b871aa498607264d26716f4: 5212631528762632263
     - e886be5b6b871aa498607264d26716f4: -1993121097811375633
     - e886be5b6b871aa498607264d26716f4: 1368786633656321213
+    - 67913fbf9c9c9f6419bfde492907ee2c: 21300000
   m_MasterAtlas: {fileID: 0}
   m_PackedSprites:
   - {fileID: -5678219306948741035, guid: 7acd9650a4b12534d8b4f50663b60902, type: 3}
@@ -989,6 +1006,22 @@ SpriteAtlas:
   - {fileID: -3044759361422347511, guid: a7d692048e20c1e44b31b13c5a3a143d, type: 3}
   - {fileID: 3807257438876814715, guid: a7d692048e20c1e44b31b13c5a3a143d, type: 3}
   - {fileID: 5154424330881927195, guid: a7d692048e20c1e44b31b13c5a3a143d, type: 3}
+  - {fileID: -86043063, guid: b5a63ad86f7e2cc48b6209995955a0d2, type: 3}
+  - {fileID: -458823272, guid: b5a63ad86f7e2cc48b6209995955a0d2, type: 3}
+  - {fileID: -1815409118, guid: b5a63ad86f7e2cc48b6209995955a0d2, type: 3}
+  - {fileID: 1280461012, guid: b5a63ad86f7e2cc48b6209995955a0d2, type: 3}
+  - {fileID: -505274278, guid: b5a63ad86f7e2cc48b6209995955a0d2, type: 3}
+  - {fileID: 319392192, guid: b5a63ad86f7e2cc48b6209995955a0d2, type: 3}
+  - {fileID: 781407509, guid: b5a63ad86f7e2cc48b6209995955a0d2, type: 3}
+  - {fileID: 1158714225, guid: b5a63ad86f7e2cc48b6209995955a0d2, type: 3}
+  - {fileID: 735915423, guid: b5a63ad86f7e2cc48b6209995955a0d2, type: 3}
+  - {fileID: 1870771116, guid: b5a63ad86f7e2cc48b6209995955a0d2, type: 3}
+  - {fileID: 354499870, guid: b5a63ad86f7e2cc48b6209995955a0d2, type: 3}
+  - {fileID: 2132542739, guid: b5a63ad86f7e2cc48b6209995955a0d2, type: 3}
+  - {fileID: 2104289827, guid: b5a63ad86f7e2cc48b6209995955a0d2, type: 3}
+  - {fileID: 1177189811, guid: b5a63ad86f7e2cc48b6209995955a0d2, type: 3}
+  - {fileID: -1486956366, guid: b5a63ad86f7e2cc48b6209995955a0d2, type: 3}
+  - {fileID: 237210804, guid: b5a63ad86f7e2cc48b6209995955a0d2, type: 3}
   - {fileID: 8660526791039896768, guid: e886be5b6b871aa498607264d26716f4, type: 3}
   - {fileID: 9134792938753193834, guid: e886be5b6b871aa498607264d26716f4, type: 3}
   - {fileID: -426139393451775752, guid: e886be5b6b871aa498607264d26716f4, type: 3}
@@ -1114,6 +1147,7 @@ SpriteAtlas:
   - {fileID: 5212631528762632263, guid: e886be5b6b871aa498607264d26716f4, type: 3}
   - {fileID: -1993121097811375633, guid: e886be5b6b871aa498607264d26716f4, type: 3}
   - {fileID: 1368786633656321213, guid: e886be5b6b871aa498607264d26716f4, type: 3}
+  - {fileID: 21300000, guid: 67913fbf9c9c9f6419bfde492907ee2c, type: 3}
   m_PackedSpriteNamesToIndex:
   - Town_222
   - Town_223
@@ -1521,6 +1555,22 @@ SpriteAtlas:
   - Cave_11
   - Cave_12
   - Cave_13
+  - "Bancas, \xE1rbol, macetas, flores, c\xE9sped._14"
+  - "Bancas, \xE1rbol, macetas, flores, c\xE9sped._15"
+  - "Bancas, \xE1rbol, macetas, flores, c\xE9sped._12"
+  - "Bancas, \xE1rbol, macetas, flores, c\xE9sped._13"
+  - "Bancas, \xE1rbol, macetas, flores, c\xE9sped._10"
+  - "Bancas, \xE1rbol, macetas, flores, c\xE9sped._11"
+  - "Bancas, \xE1rbol, macetas, flores, c\xE9sped._3"
+  - "Bancas, \xE1rbol, macetas, flores, c\xE9sped._2"
+  - "Bancas, \xE1rbol, macetas, flores, c\xE9sped._1"
+  - "Bancas, \xE1rbol, macetas, flores, c\xE9sped._0"
+  - "Bancas, \xE1rbol, macetas, flores, c\xE9sped._7"
+  - "Bancas, \xE1rbol, macetas, flores, c\xE9sped._6"
+  - "Bancas, \xE1rbol, macetas, flores, c\xE9sped._5"
+  - "Bancas, \xE1rbol, macetas, flores, c\xE9sped._4"
+  - "Bancas, \xE1rbol, macetas, flores, c\xE9sped._9"
+  - "Bancas, \xE1rbol, macetas, flores, c\xE9sped._8"
   - Home_49
   - Home_48
   - Home_69
@@ -1646,6 +1696,7 @@ SpriteAtlas:
   - Home_58
   - Home_42
   - Home_59
+  - HouseSprite
   m_RenderDataMap: {}
   m_Tag: Sprite Atlas
   m_IsVariant: 0
