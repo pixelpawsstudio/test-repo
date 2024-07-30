@@ -472,6 +472,7 @@ SpriteAtlas:
     - b5a63ad86f7e2cc48b6209995955a0d2: 1177189811
     - b5a63ad86f7e2cc48b6209995955a0d2: -1486956366
     - b5a63ad86f7e2cc48b6209995955a0d2: 237210804
+    - 39e64bc9d502c2b40b0efb70c0114b22: 21300000
     - e886be5b6b871aa498607264d26716f4: 8660526791039896768
     - e886be5b6b871aa498607264d26716f4: 9134792938753193834
     - e886be5b6b871aa498607264d26716f4: -426139393451775752
@@ -1022,6 +1023,7 @@ SpriteAtlas:
   - {fileID: 1177189811, guid: b5a63ad86f7e2cc48b6209995955a0d2, type: 3}
   - {fileID: -1486956366, guid: b5a63ad86f7e2cc48b6209995955a0d2, type: 3}
   - {fileID: 237210804, guid: b5a63ad86f7e2cc48b6209995955a0d2, type: 3}
+  - {fileID: 21300000, guid: 39e64bc9d502c2b40b0efb70c0114b22, type: 3}
   - {fileID: 8660526791039896768, guid: e886be5b6b871aa498607264d26716f4, type: 3}
   - {fileID: 9134792938753193834, guid: e886be5b6b871aa498607264d26716f4, type: 3}
   - {fileID: -426139393451775752, guid: e886be5b6b871aa498607264d26716f4, type: 3}
@@ -1571,6 +1573,7 @@ SpriteAtlas:
   - "Bancas, \xE1rbol, macetas, flores, c\xE9sped._4"
   - "Bancas, \xE1rbol, macetas, flores, c\xE9sped._9"
   - "Bancas, \xE1rbol, macetas, flores, c\xE9sped._8"
+  - tilemap_villa
   - Home_49
   - Home_48
   - Home_69
