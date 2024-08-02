@@ -93,6 +93,10 @@ public class GameMenu : MonoBehaviour {
     public GameObject[] itemSilenceText;
     public GameObject[] skillPoisonText;
     public GameObject[] skillSilenceText;
+    public GameObject decisionMessage;
+    public Button decisionYes;
+    public Button decisionNo;
+    public Text decisionText;
 
     //Event sytsem
     public EventSystem es;
@@ -161,16 +165,20 @@ public class GameMenu : MonoBehaviour {
     public int openMenuButtonSound;
     public int cancelButtonSound;
     
+    public GateKeyChecker gateKeyChecker;
+    
 
     // Use this for initialization
     void Start () {
 
         instance = this;
+        gateKeyChecker = GameObject.Find("Gate").GetComponent<GateKeyChecker>();
         
     }
 	
 	// Update is called once per frame
 	void Update () {
+        OpenGate();
 
         //Open game menu
         if (Input.GetKeyDown(KeyCode.Q))
@@ -2098,5 +2106,11 @@ public class GameMenu : MonoBehaviour {
             equipItemDescription.text = "";
             
         }
+
+        
+    }
+    public void OpenGate()
+    {
+        decisionYes.onClick.AddListener(gateKeyChecker.OpenGate);
     }
 }
