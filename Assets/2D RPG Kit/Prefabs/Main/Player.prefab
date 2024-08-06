@@ -380,12 +380,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 95214761617523964, guid: b7b2ae0d9319b1745a82b1fdf6a04516, type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 95214761617523964, guid: b7b2ae0d9319b1745a82b1fdf6a04516, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 7bf106df09604874882416f8002ea4be, type: 2}
+    - target: {fileID: 212754941309248394, guid: b7b2ae0d9319b1745a82b1fdf6a04516, type: 3}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 212754941309248394, guid: b7b2ae0d9319b1745a82b1fdf6a04516, type: 3}
+      propertyPath: m_Size.y
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 212754941309248394, guid: b7b2ae0d9319b1745a82b1fdf6a04516, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: -1284178846, guid: 4c5a853db595984469a7e8442ad7a9a0, type: 3}
+      objectReference: {fileID: 527142844, guid: 5ab2c02c58699114e82d21a5a4d8cd73, type: 3}
     m_RemovedComponents:
     - {fileID: 1265174523481968924, guid: b7b2ae0d9319b1745a82b1fdf6a04516, type: 3}
     m_RemovedGameObjects: []
@@ -395,6 +407,11 @@ PrefabInstance:
       insertIndex: 2
       addedObject: {fileID: 1823342718815472518}
   m_SourcePrefab: {fileID: 100100000, guid: b7b2ae0d9319b1745a82b1fdf6a04516, type: 3}
+--- !u!95 &1218810995015211339 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 95214761617523964, guid: b7b2ae0d9319b1745a82b1fdf6a04516, type: 3}
+  m_PrefabInstance: {fileID: 1276862261934087607}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1276739851894734995 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4423709803388196, guid: b7b2ae0d9319b1745a82b1fdf6a04516, type: 3}
@@ -418,4 +435,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 0}
-  distance: 3
+  followDistance: 2
+  minDistance: 1
+  delayTime: 0.5
+  lerpSpeed: 2
+  animator: {fileID: 1218810995015211339}

@@ -227,8 +227,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c18f511f74eb2254592c491f3e6427f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  toolbar: 0
-  currentTab: Initialization
+  toolbar: 1
+  currentTab: Items
   characterSlots:
   - {fileID: 1674758041330280}
   - {fileID: 1059803243072380}
@@ -272,6 +272,7 @@ MonoBehaviour:
   - {fileID: 114774137024542062, guid: 1db0ec4c63b1e744a956d28f292eb97c, type: 3}
   - {fileID: 114774137024542062, guid: a03d9ab26ef458b4687ad17671d5256f, type: 3}
   - {fileID: 114378626586349076, guid: f193ca26bc8eea64aa531ad52a7a167e, type: 3}
+  - {fileID: 114043814178531382, guid: a5ac8e8c6503e694e830181216b87502, type: 3}
   itemsInInventory:
   - {fileID: 114774137024542062, guid: a7b4b1d88b65cf34baa3634512ccd0bb, type: 3}
   - {fileID: 114378626586349076, guid: 26e1e121bffd9124991f910e445b649e, type: 3}
@@ -351,6 +352,7 @@ MonoBehaviour:
   - Overworld1
   - Inn
   - key1Found
+  - AquaCrystalCheck
   openedChests: 
 --- !u!114 &114145718813029494
 MonoBehaviour:
@@ -377,7 +379,7 @@ MonoBehaviour:
   - Switch 3
   - Defeat Gourmet
   - FindKey1
-  - FindWaterCrystal
+  - FindAquaCrystal
   - BuildGunWithCrystal
   - FindIgneusPot
   - 

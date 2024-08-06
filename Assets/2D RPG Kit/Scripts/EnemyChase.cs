@@ -27,8 +27,8 @@ public class EnemyChase : MonoBehaviour
             direction.Normalize();
             transform.position += (Vector3)direction * Time.deltaTime * speed;
 
-            animator.SetFloat("moveX", transform.position.x);
-            animator.SetFloat("moveY", transform.position.y);
+            animator.SetFloat("moveX", direction.x);
+            animator.SetFloat("moveY", direction.y);
         }
     }
 

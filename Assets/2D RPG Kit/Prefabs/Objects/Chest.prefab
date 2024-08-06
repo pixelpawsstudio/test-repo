@@ -557,18 +557,20 @@ MonoBehaviour:
   closedObject: {fileID: 1130809416}
   open: {fileID: 6065924650608392520}
   closed: {fileID: 6065924649902407839}
-  chestID: 
+  chestID: AquaCrystalCheck
   openSound: 9
   collectSound: 8
   numberOfItemsHeld: 0
   numberOfEquipItemsHeld: 0
-  item: 0
-  addItem: {fileID: 0}
+  item: 1
+  addItem: {fileID: 114043814178531382, guid: a5ac8e8c6503e694e830181216b87502, type: 3}
   gold: 0
   addGoldAmount: 0
   onOpenChest:
     m_PersistentCalls:
       m_Calls: []
+  questToMark: FindAquaCrystal
+  markComplete: 0
 --- !u!1 &6065924651563657100
 GameObject:
   m_ObjectHideFlags: 0

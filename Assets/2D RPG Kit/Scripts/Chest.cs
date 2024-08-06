@@ -45,6 +45,13 @@ public class Chest : MonoBehaviour
 
     public UnityEvent onOpenChest;
 
+    [Header("Quest Settings")]
+    //For completing quests after dialog
+    [Tooltip("Enter the quest that should be completed. This quest has to be registered in the Quest Manager")]
+    public string questToMark;
+    [Tooltip("Mark a quest as complete after the dialog")]
+    public bool markComplete;
+
     private void Awake()
     {
         closedObject.chestToCheck = chestID;
@@ -105,6 +112,7 @@ public class Chest : MonoBehaviour
                                 GameMenu.instance.gotItemMessageText.text = "You found a " + addItem.itemName + "!";
                                 StartCoroutine(gotItemMessageCo());
                                 //spriteRenderer.sprite = open;
+                                QuestManager.instance.MarkQuestComplete(questToMark);
                                 open.SetActive(true);
                                 closed.SetActive(false);
                                 GameManager.instance.AddItem(addItem.itemName);
