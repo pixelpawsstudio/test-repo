@@ -208,10 +208,23 @@ public class DialogManager : MonoBehaviour {
                             //GameMenu.instance.btn = choiceButton;
                             //GameMenu.instance.SelectFirstButton();
 
+                            /*
                             for (int i = 0; i < dialogStarter.dialogChoices.Count; i++)
                             {
                                 GameObject choiceButton = Instantiate(dialogChoiceButton);
                                 choiceButton.transform.parent = dialogChoices.transform;
+                                choiceButton.GetComponentInChildren<Text>().text = dialogStarter.dialogChoices[i].ChoiceText;
+                                choiceButton.GetComponent<DialogChoiceButton>().index = i;
+
+                                if (i == 0)
+                                {
+                                    choiceButton.GetComponent<Button>().Select();
+                                }
+                            }*/
+                            for (int i = 0; i < dialogStarter.dialogChoices.Count; i++)
+                            {
+                                GameObject choiceButton = Instantiate(dialogChoiceButton);
+                                choiceButton.transform.SetParent(dialogChoices.transform, false);
                                 choiceButton.GetComponentInChildren<Text>().text = dialogStarter.dialogChoices[i].ChoiceText;
                                 choiceButton.GetComponent<DialogChoiceButton>().index = i;
 
