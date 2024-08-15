@@ -8695,37 +8695,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e362c15bbe00f4d49ac5d939ce8151fd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!1 &1940885708
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1940885709}
-  m_Layer: 0
-  m_Name: Nemilia
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1940885709
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1940885708}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.1848397, y: -4.366733, z: -0.013433357}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2061898525
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8792,7 +8761,6 @@ SceneRoots:
   - {fileID: 284696416}
   - {fileID: 2061898525}
   - {fileID: 579146366}
-  - {fileID: 1940885709}
   - {fileID: 951816333}
   - {fileID: 560057741}
   - {fileID: 436190820}

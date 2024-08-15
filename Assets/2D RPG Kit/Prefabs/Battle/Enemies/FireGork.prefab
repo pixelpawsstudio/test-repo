@@ -27,7 +27,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1962906933442992}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -76,7 +76,7 @@ SpriteRenderer:
   m_SortingLayerID: -22200541
   m_SortingLayer: 2
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: ff9d6589d42edf148a898fc76c88aa31, type: 3}
+  m_Sprite: {fileID: 39674805, guid: 237ed76a56351a24b9a45c72d61157ba, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -117,7 +117,7 @@ MonoBehaviour:
   - {fileID: 3808743505478804103, guid: 2998e86dd507167469f719d501819410, type: 3}
   - {fileID: 3808743505478804103, guid: 1f8f07031d905b249ac9cf8234f109cb, type: 3}
   - {fileID: 3808743505478804103, guid: 5646805c4dc3bc24ea934f3f050d4c0e, type: 3}
-  characterName: Strong Bat
+  characterName: FireGork
   currentHp: 19
   maxHP: 19
   currentSP: 0

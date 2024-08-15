@@ -172,7 +172,9 @@ public class GameMenu : MonoBehaviour {
     void Start () {
 
         instance = this;
-        gateKeyChecker = GameObject.Find("Gate").GetComponent<GateKeyChecker>();
+
+        if(GameObject.Find("Gate") != null) 
+            gateKeyChecker = GameObject.Find("Gate").GetComponent<GateKeyChecker>();
         
     }
 	
@@ -2111,6 +2113,7 @@ public class GameMenu : MonoBehaviour {
     }
     public void OpenGate()
     {
-        decisionYes.onClick.AddListener(gateKeyChecker.OpenGate);
+        if(gateKeyChecker!= null)
+            decisionYes.onClick.AddListener(gateKeyChecker.OpenGate);
     }
 }
