@@ -173,7 +173,7 @@ MonoBehaviour:
   critical: 6
   equippedOffenseItem: 
   equippedDefenseItem: 
-  characterIamge: {fileID: 2434629766918126224, guid: 5dee9006179220145ba7295536490dbc, type: 3}
+  characterIamge: {fileID: 21300000, guid: 05775d87a1ab161458d74b580049c509, type: 3}
   poisoned: 0
   silenced: 0
 --- !u!1 &1190594902282344
@@ -790,7 +790,7 @@ MonoBehaviour:
   critical: 9
   equippedOffenseItem: 
   equippedDefenseItem: 
-  characterIamge: {fileID: 699703873648253923, guid: 5dee9006179220145ba7295536490dbc, type: 3}
+  characterIamge: {fileID: 21300000, guid: 3005640d9ac5a7840b01de92c0c68c8a, type: 3}
   poisoned: 0
   silenced: 0
 --- !u!61 &5972835153688257000

@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 8258887681006716508}
   - component: {fileID: 114017839349114026}
   m_Layer: 0
-  m_Name: Rem
+  m_Name: Ichop
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -123,7 +123,7 @@ MonoBehaviour:
   spriteRenderer: {fileID: 0}
   defeatedSprite: {fileID: 1854990784135541863, guid: 27dbc76a92eead94ebb2736fc7e7f488, type: 3}
   aliveSprite: {fileID: 21300024, guid: 31c2316ca8401de439f450d95d650653, type: 3}
-  portrait: {fileID: 699703873648253923, guid: 5dee9006179220145ba7295536490dbc, type: 3}
+  portrait: {fileID: 21300000, guid: 3005640d9ac5a7840b01de92c0c68c8a, type: 3}
   HPBar: {fileID: 0}
   poisonUi: {fileID: 0}
   silenceUi: {fileID: 0}
@@ -133,7 +133,7 @@ MonoBehaviour:
   defDwn: {fileID: 0}
   character: 1
   skills: []
-  characterName: Rem
+  characterName: Ichop
   currentHp: 0
   maxHP: 0
   currentSP: 0
