@@ -23,4 +23,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/2D RPG Kit/Scenes/IchopGame/Beach.unity
     guid: 55127a1543f3186479d53247b2501f28
+  - enabled: 1
+    path: Assets/2D RPG Kit/Scenes/IchopGame/Caves.unity
+    guid: 62dd25ea268842e4ea15fd7c49932923
+  - enabled: 1
+    path: Assets/2D RPG Kit/Scenes/IchopGame/PuzzleCuevaMJ.unity
+    guid: 8fa3706f48fbf214ba78a7f928f77bca
   m_configObjects: {}
