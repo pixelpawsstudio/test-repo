@@ -5,6 +5,8 @@ using UnityEngine.UI;
 using UnityStandardAssets.CrossPlatformInput;
 using System;
 using UnityEngine.Events;
+using static System.TimeZoneInfo;
+using UnityEngine.SceneManagement;
 
 public class DialogManager : MonoBehaviour {
 
@@ -42,6 +44,7 @@ public class DialogManager : MonoBehaviour {
     public Text choiceBLabel;
     public List<DialogChoices> dialogChoice;
     public GameObject dialogChoiceButton;
+    public string SceneName;
 
     [HideInInspector]
     public bool closeShop = false;
@@ -62,7 +65,12 @@ public class DialogManager : MonoBehaviour {
     private string eventToMark;
     private bool markEventComplete1;
     private bool shouldMarkEvent;
+    private bool shouldChangeScene;
     public GameObject NPC;
+    [Tooltip("Enter the duration of transition to the new scene in seconds")]
+    public float transitionTime = 1f;
+    [Tooltip("Enter the players' position in the next scene")]
+    public Vector2 newPosition;
 
     // Use this for initialization
     void Start () {
@@ -201,6 +209,18 @@ public class DialogManager : MonoBehaviour {
                                     EventManager.instance.MarkEventIncomplete(eventToMark);
                                 }
                             }
+
+                            if (shouldChangeScene)
+                            {
+                                Debug.Log("Ejecutando should change desde show dialog");
+                                if (SceneName != null)
+                                {
+                                    DialogManager.instance.ChangeSceneAtEnd(SceneName);
+                                    SceneName = null;
+                                }
+                                shouldChangeScene = false;
+                            }
+
                         }
                         else
                         {
@@ -383,6 +403,17 @@ public class DialogManager : MonoBehaviour {
                     EventManager.instance.MarkEventIncomplete(eventToMark);
                 }
             }
+
+            if (shouldChangeScene)
+            {
+                Debug.Log("Ejecutando should change desde show dialog");
+                if (SceneName != null)
+                {
+                    DialogManager.instance.ChangeSceneAtEnd(SceneName);
+                    SceneName = null;
+                }
+                shouldChangeScene = false;
+            }
         }
         
     }
@@ -511,6 +542,19 @@ public class DialogManager : MonoBehaviour {
                 {
                     EventManager.instance.MarkEventIncomplete(eventToMark);
                 }
+            }
+
+            if (shouldChangeScene)
+            {
+                Debug.Log("Ejecutando should change desde dialogauto");
+                if (SceneName != null)
+                {
+                    DialogManager.instance.ChangeSceneAtEnd(SceneName);
+                    SceneName = null;
+                }
+                shouldChangeScene = false;
+
+
             }
         }
 
@@ -650,6 +694,28 @@ public class DialogManager : MonoBehaviour {
         markEventComplete1 = markEventComplete;
 
         shouldMarkEvent = true;
+    }
+
+    public void ShouldChangeScene(string sceneName)
+    {
+        Debug.Log("Entrando a should change");
+        shouldChangeScene = true;
+        SceneName = sceneName;
+    }
+
+    //Method to change scene after dialog
+    public void ChangeSceneAtEnd(string sceneName)
+    {
+        Debug.Log("Cambiando escena");
+        
+        //ScreenFade.instance.FadeToBlack();
+        //transitionTime -= Time.deltaTime;
+        //if (transitionTime <= 0)
+       //{
+            PlayerController.instance.transform.position = newPosition;
+            SceneManager.LoadScene(sceneName);
+
+        //}
     }
 
     public IEnumerator gotItemMessageCo()
