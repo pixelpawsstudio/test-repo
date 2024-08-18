@@ -16,6 +16,7 @@ public class PlayerController : MonoBehaviour {
     [HideInInspector]
     public Animator animator;
     public float moveSpeed;
+    public GameObject nemilia;
     
     //Make instance of this script to be able reference from other scripts!
     public static PlayerController instance;
@@ -33,6 +34,7 @@ public class PlayerController : MonoBehaviour {
 
         rigidBody = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
+        nemilia = GetComponentInChildren<NemiliaController>().gameObject;
 
         if (instance == null)
         {
@@ -165,6 +167,14 @@ public class PlayerController : MonoBehaviour {
 
             //This calculates the bounds and doesn't let the player go beyond the defined bounds
             transform.position = new Vector3(Mathf.Clamp(transform.position.x, boundary1.x, boundary2.x), Mathf.Clamp(transform.position.y, boundary1.y, boundary2.y), transform.position.z);
+        }
+
+        if (QuestManager.instance.CheckIfComplete("NemiliaFollowsYou"))
+        {
+            nemilia.SetActive(true);
+        } else
+        {
+            nemilia.SetActive(false);
         }
         
     }

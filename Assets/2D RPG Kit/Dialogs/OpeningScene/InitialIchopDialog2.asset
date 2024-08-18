@@ -10,13 +10,19 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b2556bb0d236966468fd1e6bd2eeaffd, type: 3}
-  m_Name: InitialIchopDialog
+  m_Name: InitialIchopDialog2
   m_EditorClassIdentifier: 
   portraits:
   - {fileID: 21300000, guid: 3005640d9ac5a7840b01de92c0c68c8a, type: 3}
+  - {fileID: 21300000, guid: 05775d87a1ab161458d74b580049c509, type: 3}
   lines:
+  - //Nemilia
+  - '**1'
+  - "\xA1Hey t\xFA! \xBFqui\xE9n eres?  "
   - //Ichop
   - '**0'
-  - "Auch... eso doli\xF3..."
-  - "\xBFD\xF3nde estoy? \xBFD\xF3nde est\xE1n mis amigos?"
+  - "Me llamo Ichop vengo del pla\u2026"
+  - //Nemilia
+  - '**1'
+  - "Me cuentas luego, qu\xE9 no ves que me est\xE1n atacando, \xA1ay\xFAdameeee!"
   closingMessage: []

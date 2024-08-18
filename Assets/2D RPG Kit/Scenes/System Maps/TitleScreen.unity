@@ -1374,7 +1374,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   music: 11
-  newGameScene: VillageIch
+  newGameScene: OpeningCinematicVideo
   continueButton: {fileID: 614055136}
   mainMenu: {fileID: 356614839}
   difficultySettings: {fileID: 1046321193}

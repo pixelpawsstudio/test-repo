@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2556bb0d236966468fd1e6bd2eeaffd, type: 3}
+  m_Name: IchopMeetNemilia
+  m_EditorClassIdentifier: 
+  portraits:
+  - {fileID: 0}
+  - {fileID: 0}
+  lines:
+  - //Nemilia
+  - '**0'
+  - "Gracias peque\xF1o amigo verde, nunca hab\xEDa visto un elfo tan raro"
+  - //Ichop
+  - '**1'
+  - "No soy El\u2026 Ee\u2026 \xBFQu\xE9 eran esas cosas?"
+  - //Nemilia
+  - '**0'
+  - Eran Grocks, los enemigos de esta tierra, la tierra de Reiday.
+  - //Ichop
+  - '**1'
+  - "Bienvenido a mi villa, por favor tomate un tiempo para descansar, la gente por
+    aqu\xED es muy amable"
+  - ' cuando te sientas mejor puedes buscarme.'
+  closingMessage: []

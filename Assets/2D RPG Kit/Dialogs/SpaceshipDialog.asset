@@ -15,21 +15,27 @@ MonoBehaviour:
   portraits: []
   lines:
   - //Ichop
+  - '**'
   - "Estaci\xF3n central, se reporta la expedici\xF3n R389, est\xE1bamos atravesando
     la regi\xF3n de planetas del cuadrante r20. "
   - "Una lluvia de meteoritos nos acaba de golpear, y la colisi\xF3n ha da\xF1ado
     los sistemas principales. Perderemos comunicaci\xF3n, trataremos de retomarla,
     pero requerimos un grupo de rescate, repito, requerimos un grupo de rescate."
   - //Raimunfo
+  - '**'
   - "\xA1Chispas!, \xA1NO ME QUIERO IR SE\xD1OR ICHOP!"
   - //Vorlun
+  - '**'
   - Verduras, no quiero desuscribirme de la vida. ;v
   - //Cochi
+  - '**'
   - No se preocupen, todo va a salir bien, amigos
   - //Ichop
+  - '**'
   - "Ya no lloren, los buscar\xE9 a todos en la superficie. Para esto nos entrenaron
     caballeros, es hora de usar\u2026"
   - (Golpe en la cabeza) Auuch!
   - //Raimunfo
+  - '**'
   - "Noooooo, Ichop se desmayo, nooo mi capi ay\xFAdenos"
   closingMessage: []
