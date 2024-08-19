@@ -47,4 +47,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/2D RPG Kit/Scenes/IchopGame/IchopMeetsNemilia.unity
     guid: 17b5cc1fb58796d4ea376c52c24d57ee
+  - enabled: 1
+    path: Assets/2D RPG Kit/Scenes/IchopGame/Desert.unity
+    guid: cd1969ade1b0bed4886fb3fa09ccc7c6
   m_configObjects: {}

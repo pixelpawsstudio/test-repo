@@ -15,6 +15,7 @@ public class AquaCrystalChecker : MonoBehaviour
     public GameObject defaultDialogue;
     public GameObject crystalDialogue;
     public GameObject postCrytaslDialogue;
+    public string questToCheck;
     
 
     private void Start()
@@ -42,7 +43,7 @@ public class AquaCrystalChecker : MonoBehaviour
                 }
             }
 
-            if (gotItem && !QuestManager.instance.completedQuests[13])
+            if (gotItem && !QuestManager.instance.CheckIfComplete(questToCheck))
             {
                 Debug.Log("Tienes el cristal aqua, aún no se completa el quest, desactiva el dialogo default, activa el dialogo del cristal");
                 defaultDialogue.SetActive(false);
@@ -50,7 +51,7 @@ public class AquaCrystalChecker : MonoBehaviour
                 postCrytaslDialogue.SetActive(false);
                 itemAvailable?.Invoke();
             }
-            else if(gotItem && QuestManager.instance.completedQuests[13])
+            else if(gotItem && QuestManager.instance.CheckIfComplete(questToCheck))
             {
                 defaultDialogue.SetActive(false);
                 crystalDialogue.SetActive(false);

@@ -180,6 +180,9 @@ public class GameMenu : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+        if (GameObject.Find("Gate") != null)
+            gateKeyChecker = GameObject.Find("Gate").GetComponent<GateKeyChecker>();
+
         OpenGate();
 
         //Open game menu
@@ -2113,6 +2116,7 @@ public class GameMenu : MonoBehaviour {
     }
     public void OpenGate()
     {
+        Debug.Log("OpenGate desde Game Menu");
         if(gateKeyChecker!= null)
             decisionYes.onClick.AddListener(gateKeyChecker.OpenGate);
     }

@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2556bb0d236966468fd1e6bd2eeaffd, type: 3}
+  m_Name: Marcov
+  m_EditorClassIdentifier: 
+  portraits: []
+  lines:
+  - //Markov
+  - '**'
+  - "\xA1Bienvenido a mi tienda!"
+  - "No he visto a ninguno de tu especie por aqu\xED\u2026 pero te agradezco que
+    ayudaras a Nemilia."
+  - "Hablemos de negocios \xBFTienes dinero? Si no, sal a derrotar algunos Gorks
+    para conseguir un poco"
+  closingMessage:
+  - //Markov
+  - '**'
+  - '!Nos vemos, verdecito!'

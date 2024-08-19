@@ -1,10 +1,7 @@
 using System.Collections;
-using System.Collections.Generic;
-using UnityEditor.SearchService;
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.SceneManagement;
-using static System.TimeZoneInfo;
 
 public class QuestCompleteChangeScene : MonoBehaviour
 {

@@ -65,7 +65,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0, y: -0.6279567}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -76,7 +76,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 1, y: 2.2559133}
   m_EdgeRadius: 0
 --- !u!114 &6450384236724994169
 MonoBehaviour:
@@ -99,7 +99,7 @@ MonoBehaviour:
   headLeft: {fileID: 1409059356627455167, guid: 25c66a954ad7cd441927691357c2b238, type: 3}
   headRight: {fileID: 5879030519747019554, guid: 25c66a954ad7cd441927691357c2b238, type: 3}
   bodyUp: {fileID: -8150692161239652809, guid: 25c66a954ad7cd441927691357c2b238, type: 3}
-  bodyDown: {fileID: -8208199307919308370, guid: 25c66a954ad7cd441927691357c2b238, type: 3}
+  bodyDown: {fileID: 1684029082, guid: 69d8a5763f4ed5f49a4262df12752ac0, type: 3}
   bodyLeft: {fileID: 8943540920285716788, guid: 25c66a954ad7cd441927691357c2b238, type: 3}
   bodyRight: {fileID: -5290479830164994379, guid: 25c66a954ad7cd441927691357c2b238, type: 3}
   saveDefaultRotation: 0
@@ -146,6 +146,7 @@ MonoBehaviour:
   goldAmount: 0
   questToMark: BuildGunWithCrystal
   markComplete: 1
+  changeScene: 0
   eventToMark: 
   markEventComplete: 0
   onCanActivate:
@@ -154,6 +155,7 @@ MonoBehaviour:
   onDialogStart:
     m_PersistentCalls:
       m_Calls: []
+  scene: 
 --- !u!1 &3439495669192371194
 GameObject:
   m_ObjectHideFlags: 0
@@ -233,7 +235,7 @@ SpriteRenderer:
   m_SortingLayerID: 1314224323
   m_SortingLayer: 1
   m_SortingOrder: -1
-  m_Sprite: {fileID: -8208199307919308370, guid: 25c66a954ad7cd441927691357c2b238, type: 3}
+  m_Sprite: {fileID: 1684029082, guid: 69d8a5763f4ed5f49a4262df12752ac0, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -280,7 +282,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.0625, y: 1}
+    oldSize: {x: 2, y: 2}
     newSize: {x: 1.0625, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -377,7 +379,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0, y: -0.66314375}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -388,7 +390,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 1, y: 2.3262873}
   m_EdgeRadius: 0
 --- !u!114 &8652255307027403193
 MonoBehaviour:
@@ -411,7 +413,7 @@ MonoBehaviour:
   headLeft: {fileID: 1409059356627455167, guid: 25c66a954ad7cd441927691357c2b238, type: 3}
   headRight: {fileID: 5879030519747019554, guid: 25c66a954ad7cd441927691357c2b238, type: 3}
   bodyUp: {fileID: -8150692161239652809, guid: 25c66a954ad7cd441927691357c2b238, type: 3}
-  bodyDown: {fileID: -8208199307919308370, guid: 25c66a954ad7cd441927691357c2b238, type: 3}
+  bodyDown: {fileID: 1684029082, guid: 69d8a5763f4ed5f49a4262df12752ac0, type: 3}
   bodyLeft: {fileID: 8943540920285716788, guid: 25c66a954ad7cd441927691357c2b238, type: 3}
   bodyRight: {fileID: -5290479830164994379, guid: 25c66a954ad7cd441927691357c2b238, type: 3}
   saveDefaultRotation: 0
@@ -438,6 +440,7 @@ MonoBehaviour:
   goldAmount: 0
   questToMark: 
   markComplete: 0
+  changeScene: 0
   eventToMark: 
   markEventComplete: 0
   onCanActivate:
@@ -446,6 +449,7 @@ MonoBehaviour:
   onDialogStart:
     m_PersistentCalls:
       m_Calls: []
+  scene: 
 --- !u!1 &5703100487320704194
 GameObject:
   m_ObjectHideFlags: 0
@@ -462,7 +466,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &7972409819498544869
 Transform:
   m_ObjectHideFlags: 0
@@ -595,7 +599,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0, y: -0.68016464}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -606,7 +610,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 1, y: 2.3603292}
   m_EdgeRadius: 0
 --- !u!114 &1778257445815007506
 MonoBehaviour:
@@ -629,7 +633,7 @@ MonoBehaviour:
   headLeft: {fileID: 1409059356627455167, guid: 25c66a954ad7cd441927691357c2b238, type: 3}
   headRight: {fileID: 5879030519747019554, guid: 25c66a954ad7cd441927691357c2b238, type: 3}
   bodyUp: {fileID: -8150692161239652809, guid: 25c66a954ad7cd441927691357c2b238, type: 3}
-  bodyDown: {fileID: -8208199307919308370, guid: 25c66a954ad7cd441927691357c2b238, type: 3}
+  bodyDown: {fileID: 1684029082, guid: 69d8a5763f4ed5f49a4262df12752ac0, type: 3}
   bodyLeft: {fileID: 8943540920285716788, guid: 25c66a954ad7cd441927691357c2b238, type: 3}
   bodyRight: {fileID: -5290479830164994379, guid: 25c66a954ad7cd441927691357c2b238, type: 3}
   saveDefaultRotation: 0
@@ -656,6 +660,7 @@ MonoBehaviour:
   goldAmount: 0
   questToMark: 
   markComplete: 0
+  changeScene: 0
   eventToMark: 
   markEventComplete: 0
   onCanActivate:
@@ -664,3 +669,4 @@ MonoBehaviour:
   onDialogStart:
     m_PersistentCalls:
       m_Calls: []
+  scene: 
