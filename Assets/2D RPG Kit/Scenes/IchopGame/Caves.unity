@@ -89805,6 +89805,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2882537451941858062, guid: 4b1d29c5bb12d9a4abf9fcfa20d04723, type: 3}
+      propertyPath: gold
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2882537451941858062, guid: 4b1d29c5bb12d9a4abf9fcfa20d04723, type: 3}
+      propertyPath: item
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2882537451941858062, guid: 4b1d29c5bb12d9a4abf9fcfa20d04723, type: 3}
+      propertyPath: addItem
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2882537451941858062, guid: 4b1d29c5bb12d9a4abf9fcfa20d04723, type: 3}
+      propertyPath: addGoldAmount
+      value: 200
+      objectReference: {fileID: 0}
     - target: {fileID: 6065924651362599900, guid: 4b1d29c5bb12d9a4abf9fcfa20d04723, type: 3}
       propertyPath: m_Name
       value: Chest
@@ -89864,11 +89880,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2026704735767415498, guid: a720ed82ced014741b7fd8eefd7ff04e, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -4.2
+      value: 1.5
       objectReference: {fileID: 0}
     - target: {fileID: 2026704735767415498, guid: a720ed82ced014741b7fd8eefd7ff04e, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.6
+      value: 7.27
       objectReference: {fileID: 0}
     - target: {fileID: 2359413913004256575, guid: a720ed82ced014741b7fd8eefd7ff04e, type: 3}
       propertyPath: m_Name
@@ -89876,7 +89892,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6183752501097553062, guid: a720ed82ced014741b7fd8eefd7ff04e, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 39.6
+      value: 31.07
       objectReference: {fileID: 0}
     - target: {fileID: 6183752501097553062, guid: a720ed82ced014741b7fd8eefd7ff04e, type: 3}
       propertyPath: m_LocalPosition.y
@@ -89915,8 +89931,12 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8690319884539177884, guid: a720ed82ced014741b7fd8eefd7ff04e, type: 3}
-      propertyPath: m_LocalPosition.y
+      propertyPath: m_LocalPosition.x
       value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8690319884539177884, guid: a720ed82ced014741b7fd8eefd7ff04e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.24
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -90014,7 +90034,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2026704735767415498, guid: a720ed82ced014741b7fd8eefd7ff04e, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 5.2
+      value: 3.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2026704735767415498, guid: a720ed82ced014741b7fd8eefd7ff04e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.11
       objectReference: {fileID: 0}
     - target: {fileID: 2359413913004256575, guid: a720ed82ced014741b7fd8eefd7ff04e, type: 3}
       propertyPath: m_Name
@@ -90026,11 +90050,11 @@ PrefabInstance:
       objectReference: {fileID: -2096891428, guid: 0d17c408b1177e648a34757d2107b1c8, type: 3}
     - target: {fileID: 6183752501097553062, guid: a720ed82ced014741b7fd8eefd7ff04e, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 37.3
+      value: 24.68
       objectReference: {fileID: 0}
     - target: {fileID: 6183752501097553062, guid: a720ed82ced014741b7fd8eefd7ff04e, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -26.05
+      value: -22.8
       objectReference: {fileID: 0}
     - target: {fileID: 6183752501097553062, guid: a720ed82ced014741b7fd8eefd7ff04e, type: 3}
       propertyPath: m_LocalPosition.z
@@ -90066,11 +90090,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8690319884539177884, guid: a720ed82ced014741b7fd8eefd7ff04e, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.9
+      value: 3.2
       objectReference: {fileID: 0}
     - target: {fileID: 8690319884539177884, guid: a720ed82ced014741b7fd8eefd7ff04e, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.4
+      value: 5.98
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -90609,6 +90633,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2882537451941858062, guid: 4b1d29c5bb12d9a4abf9fcfa20d04723, type: 3}
+      propertyPath: gold
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2882537451941858062, guid: 4b1d29c5bb12d9a4abf9fcfa20d04723, type: 3}
+      propertyPath: item
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2882537451941858062, guid: 4b1d29c5bb12d9a4abf9fcfa20d04723, type: 3}
+      propertyPath: addItem
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2882537451941858062, guid: 4b1d29c5bb12d9a4abf9fcfa20d04723, type: 3}
+      propertyPath: addGoldAmount
+      value: 500
+      objectReference: {fileID: 0}
     - target: {fileID: 6065924651362599900, guid: 4b1d29c5bb12d9a4abf9fcfa20d04723, type: 3}
       propertyPath: m_Name
       value: Chest (1)
