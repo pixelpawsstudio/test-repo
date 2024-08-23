@@ -10,16 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b2556bb0d236966468fd1e6bd2eeaffd, type: 3}
-  m_Name: BlacksmithDialogue
+  m_Name: NPC3Dialog
   m_EditorClassIdentifier: 
-  portraits:
-  - {fileID: -5456665973503014888, guid: 36c11a282731b544f9695b2c3530351c, type: 3}
+  portraits: []
   lines:
-  - //HERRERA
+  - //Foldin
   - '**'
-  - 'Hola, soy la herrera del pueblo, '
-  - "si tienes un arma y alg\xFAn elemento potenciador \\n puedo fusionarlos por
-    ti."
-  - ' Necesitas el Cristal Aqua,'
-  - " se rumora que yace en las profundidades de la cueva del desierto monta\xF1oso."
+  - "Hola, soy Foldin, tan solo me gusta explorar cuevas y lugares rec\xF3nditos..."
+  - Ten cuidado con esas cosas...
+  - son caracoles de fuego, aliados de los Gorks, antes eran salvajes, pero los adiestraron...
+  - ' y queman nuestros cultivos a escupitajos.'
   closingMessage: []

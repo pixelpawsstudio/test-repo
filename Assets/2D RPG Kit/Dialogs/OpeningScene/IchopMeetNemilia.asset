@@ -24,10 +24,35 @@ MonoBehaviour:
   - "No soy El\u2026 Ee\u2026 \xBFQu\xE9 eran esas cosas?"
   - //Nemilia
   - '**0'
-  - Eran Grocks, los enemigos de esta tierra, la tierra de Reiday.
+  - Eran Gorks, los enemigos de esta tierra, la tierra de Reiday.
   - //Ichop
   - '**1'
-  - "Bienvenido a mi villa, por favor tomate un tiempo para descansar, la gente por
-    aqu\xED es muy amable"
-  - ' cuando te sientas mejor puedes buscarme.'
+  - "Jam\xE1s hab\xEDa visto criaturas as\xED, dan mucho mello\u2026"
+  - //Nemilia
+  - '**0'
+  - "\xA1S\xED! son un fastidio y dan pesadillas. Pero siempre con valor. "
+  - "Por cierto, \xBFc\xF3mo dec\xEDas que te llamabas?"
+  - //Ichop
+  - '**1'
+  - "Fue un placer ayudarte, me llamo Ichop \xBFY t\xFA c\xF3mo te llamas? "
+  - //Nemilia
+  - '**0'
+  - "Que nombre tan extra\xF1o\u2026 ta bien."
+  - "Yo soy Nemilia, la guerrera m\xE1s fuerte de mi villa, un gusto amiguito verde."
+  - "\xBFQu\xE9 te trae por estos lares?"
+  - //Ichop
+  - '**1'
+  - "De donde vengo, es un nombre muy com\xFAn. "
+  - "Ando perdido, mi nave se estrell\xF3 y no encuentro a mis amigos, los estoy
+    buscando."
+  - //Nemilia
+  - '**0'
+  - "\xA1Oh amiguito verde! Es una lastima..."
+  - "En agradecimiento te ayudar\xE9 a buscarlos."
+  - "Por favor t\xF3mate un tiempo para descansar, la gente por aqu\xED es muy amable."
+  - "Puedes explorar mi villa, yo estar\xE9 sigui\xE9ndote."
+  - "!Cuando est\xE9s listo podemos comenzar a buscar a tus amigos!"
+  - //Ichop
+  - '**1'
+  - "\xBFEn serio? Garciaaas"
   closingMessage: []

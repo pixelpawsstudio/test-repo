@@ -19947,8 +19947,8 @@ MonoBehaviour:
   itemToGive: {fileID: 0}
   receiveGold: 0
   goldAmount: 0
-  questToMark: 
-  markComplete: 0
+  questToMark: NemiliaFollowsYou
+  markComplete: 1
   changeScene: 1
   eventToMark: 
   markEventComplete: 0
