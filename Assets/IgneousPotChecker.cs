@@ -21,8 +21,6 @@ public class IgneousPotChecker : MonoBehaviour
     public GameObject dialogue;
 
 
-    private bool initialCheckDone;
-
     public UnityEvent onActivate;
 
     public Item itemToCheck;

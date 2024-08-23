@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 5899837820221037713}
   - component: {fileID: 3808743505478804103}
   m_Layer: 0
-  m_Name: Gun Shot
+  m_Name: Disparo Normal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -45,7 +45,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   skill:
-    skillName: Gun Shot
+    skillName: Disparo normal
     attackAll: 1
     heal: 0
     healStatusEffects: 0

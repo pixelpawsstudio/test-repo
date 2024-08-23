@@ -1773,8 +1773,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ddca49db092ebb4eaff9affbb973350, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  toolbar: 2
-  currentTab: Prefabs
+  toolbar: 3
+  currentTab: Skills
   usable: 0
   buttonValue: 0
   spriteRenderer: {fileID: 212760558863176084}
@@ -1928,6 +1928,7 @@ MonoBehaviour:
   - {fileID: 3808743505478804103, guid: 1f8f07031d905b249ac9cf8234f109cb, type: 3}
   - {fileID: 3808743505478804103, guid: 3e056caccd6121b48aef18491b4fcc51, type: 3}
   - {fileID: 3808743505478804103, guid: d0ba8c3b651e4054aaf63b5664733522, type: 3}
+  - {fileID: 3808743505478804103, guid: 220d283eec0e8c14c887ded455b4b40c, type: 3}
   skillCost: 0
   skillDescriptionText: {fileID: 7116460694152071431}
   skillButtons:

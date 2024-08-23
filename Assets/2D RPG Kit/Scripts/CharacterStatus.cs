@@ -5,7 +5,7 @@ using UnityEngine;
 public class CharacterStatus : MonoBehaviour {
     [Header("Default Character Settings")]
     public bool activeInParty;
-    [HideInInspector]
+    
     public string characterName;
     public BattleCharacter battleCharacter;
     public int level = 1;
@@ -127,5 +127,12 @@ public class CharacterStatus : MonoBehaviour {
         {
             currentEXP = 0;
         }
+    }
+
+
+    public void AddSkill (Skill skill)
+    {
+        System.Array.Resize(ref skills, skills.Length + 1);
+        skills[skills.Length - 1] = skill;
     }
 }
