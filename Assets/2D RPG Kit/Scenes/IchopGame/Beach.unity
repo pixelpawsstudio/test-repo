@@ -8945,8 +8945,24 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2882537451941858062, guid: 4b1d29c5bb12d9a4abf9fcfa20d04723, type: 3}
+      propertyPath: item
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2882537451941858062, guid: 4b1d29c5bb12d9a4abf9fcfa20d04723, type: 3}
+      propertyPath: addItem
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2882537451941858062, guid: 4b1d29c5bb12d9a4abf9fcfa20d04723, type: 3}
+      propertyPath: chestID
+      value: MoneyChest
+      objectReference: {fileID: 0}
+    - target: {fileID: 2882537451941858062, guid: 4b1d29c5bb12d9a4abf9fcfa20d04723, type: 3}
+      propertyPath: questToMark
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2882537451941858062, guid: 4b1d29c5bb12d9a4abf9fcfa20d04723, type: 3}
       propertyPath: addGoldAmount
-      value: 1000
+      value: 300
       objectReference: {fileID: 0}
     - target: {fileID: 6065924651362599900, guid: 4b1d29c5bb12d9a4abf9fcfa20d04723, type: 3}
       propertyPath: m_Name
