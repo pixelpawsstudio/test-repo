@@ -3186,11 +3186,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 9030749063508831561, guid: 015fba17eb1ff464f8710b845b84e9ed, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 5.83
+      value: 3.7
       objectReference: {fileID: 0}
     - target: {fileID: 9030749063508831561, guid: 015fba17eb1ff464f8710b845b84e9ed, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 4.85
+      value: 0.25
       objectReference: {fileID: 0}
     - target: {fileID: 9030749063508831561, guid: 015fba17eb1ff464f8710b845b84e9ed, type: 3}
       propertyPath: m_LocalPosition.z
@@ -3318,7 +3318,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9030749063508831567, guid: 015fba17eb1ff464f8710b845b84e9ed, type: 3}
       propertyPath: randomBattles.Array.data[1].enemies.Array.data[1]
-      value: FireGork
+      value: Gork
       objectReference: {fileID: 0}
     - target: {fileID: 9030749063508831567, guid: 015fba17eb1ff464f8710b845b84e9ed, type: 3}
       propertyPath: randomBattles.Array.data[2].enemies.Array.data[0]

@@ -1464,6 +1464,7 @@ public class GameMenu : MonoBehaviour {
     {
         if (activeItem != null)
         {
+            
             //disable every item button except for selected item button
             for (int i = 0; i < itemButtonsB.Length; i++)
             {

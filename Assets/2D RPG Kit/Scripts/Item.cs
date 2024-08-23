@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class Item : MonoBehaviour
 {
+    public bool isDiscardable;
+    public bool isUsable;
 
     [Header("Item Type")]
     public bool item;

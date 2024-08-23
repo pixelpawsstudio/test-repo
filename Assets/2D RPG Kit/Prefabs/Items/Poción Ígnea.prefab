@@ -97,12 +97,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ddf7c1ada77bbe419831ca4fc18005b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  item: 0
+  item: 1
   battleStatusModifier: 0
   healStatusEffects: 0
   revive: 0
   offense: 0
-  defense: 1
+  defense: 0
   itemName: "Poci\xF3n \xEDgnea"
   description: Permite soportar altas temperaturas.
   price: 2500

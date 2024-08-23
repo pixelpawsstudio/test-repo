@@ -128,7 +128,7 @@ MonoBehaviour:
   critical: 6
   weaponStrength: 0
   armorStrength: 0
-  type: 6
+  type: 2
   maxHpEasy: 20
   maxHpNormal: 22
   maxHpHard: 25
