@@ -52,7 +52,7 @@ public class GateKeyChecker : MonoBehaviour
             else
             {
                 Debug.Log("No has conseguido la llave, no es posible abrir la puerta");
-                GameMenu.instance.decisionText.text = "Necesitas una llave para abrir la puerta";
+                GameMenu.instance.decisionText.text = "Necesitas una llave";
                 GameMenu.instance.decisionNo.gameObject.SetActive(false);
                 GameMenu.instance.decisionYes.gameObject.SetActive(false);
                 itemMissing?.Invoke();

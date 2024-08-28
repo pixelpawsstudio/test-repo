@@ -59,4 +59,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/2D RPG Kit/Scenes/IchopGame/OpeningCinematicVideo2.unity
     guid: 432ac5a0498043f448c3b68a08105816
+  - enabled: 1
+    path: Assets/2D RPG Kit/Scenes/System Maps/CreditsInGame.unity
+    guid: 6392c15dc954f6040b36aea9b3ee48a5
   m_configObjects: {}
