@@ -1773,8 +1773,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ddca49db092ebb4eaff9affbb973350, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  toolbar: 3
-  currentTab: Skills
+  toolbar: 2
+  currentTab: Prefabs
   usable: 0
   buttonValue: 0
   spriteRenderer: {fileID: 212760558863176084}
@@ -1907,6 +1907,7 @@ MonoBehaviour:
   - {fileID: 114895784032005762, guid: a8e622fdf3f914d46b67674648f68709, type: 3}
   - {fileID: 114895784032005762, guid: f7c7f69dd95aec74d9a89ca1d1e31734, type: 3}
   - {fileID: 114895784032005762, guid: 253f18f687f38224b87ff2342f22f9e5, type: 3}
+  - {fileID: 114895784032005762, guid: 2cb88c831749bb04f9a5fad3527e8ffc, type: 3}
   enemyAttackEffect: {fileID: 1261278678591276, guid: 67aaab33d8f46774fb89c9aebaaa1801, type: 3}
   characterTurnIndicator: {fileID: 3546183991522720056, guid: 0db26846bf973244996f290dbb93aec5, type: 3}
   theDamageNumber: {fileID: 114429894980074712, guid: add1341ff4b53074794f5f54ef4f216d, type: 3}

@@ -44,6 +44,7 @@ public class GameOver : MonoBehaviour {
         Destroy(BattleManager.instance.gameObject);
         
         Destroy(GameObject.Find("Game Manager(Clone)"));
+        
         SceneManager.LoadScene(mainMenuScene);
     }
 

@@ -11,7 +11,7 @@ public class SavePoint : MonoBehaviour
     // Start is called before the first frame update
     void Update()
     { 
-        if (Input.GetButtonDown("RPGConfirmPC") || Input.GetButtonDown("RPGConfirmJoy") || CrossPlatformInputManager.GetButtonDown("RPGConfirmTouch"))
+        if (Input.GetButtonDown("Submit") || Input.GetButtonDown("RPGConfirmPC") || Input.GetButtonDown("RPGConfirmJoy") || CrossPlatformInputManager.GetButtonDown("RPGConfirmTouch"))
         {
             if (canOpen && PlayerController.instance.canMove && !Save.instance.saveMenu.activeInHierarchy && !GameManager.instance.gameMenuOpen)
             {

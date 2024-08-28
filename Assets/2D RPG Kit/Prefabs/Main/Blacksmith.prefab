@@ -99,7 +99,7 @@ MonoBehaviour:
   headLeft: {fileID: 1409059356627455167, guid: 25c66a954ad7cd441927691357c2b238, type: 3}
   headRight: {fileID: 5879030519747019554, guid: 25c66a954ad7cd441927691357c2b238, type: 3}
   bodyUp: {fileID: -8150692161239652809, guid: 25c66a954ad7cd441927691357c2b238, type: 3}
-  bodyDown: {fileID: 1684029082, guid: 69d8a5763f4ed5f49a4262df12752ac0, type: 3}
+  bodyDown: {fileID: 21300000, guid: 94775eba37a526747b2359b961256e82, type: 3}
   bodyLeft: {fileID: 8943540920285716788, guid: 25c66a954ad7cd441927691357c2b238, type: 3}
   bodyRight: {fileID: -5290479830164994379, guid: 25c66a954ad7cd441927691357c2b238, type: 3}
   saveDefaultRotation: 0
@@ -235,7 +235,7 @@ SpriteRenderer:
   m_SortingLayerID: 1314224323
   m_SortingLayer: 1
   m_SortingOrder: -1
-  m_Sprite: {fileID: 1684029082, guid: 69d8a5763f4ed5f49a4262df12752ac0, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 94775eba37a526747b2359b961256e82, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -278,7 +278,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.26284218, y: 0.3142401}
+  m_Offset: {x: 0.26284218, y: -0.47119594}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -289,7 +289,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 5.8429413, y: 3.5309045}
+  m_Size: {x: 5.8429413, y: 5.1017766}
   m_EdgeRadius: 0
 --- !u!114 &7282441076942893947
 MonoBehaviour:
@@ -314,6 +314,7 @@ MonoBehaviour:
   defaultDialogue: {fileID: 5084116889019431706}
   crystalDialogue: {fileID: 44148380482943098}
   postCrytaslDialogue: {fileID: 6353417821316340392}
+  questToCheck: BuildGunWithCrystal
 --- !u!1 &5084116889019431706
 GameObject:
   m_ObjectHideFlags: 0
@@ -413,7 +414,7 @@ MonoBehaviour:
   headLeft: {fileID: 1409059356627455167, guid: 25c66a954ad7cd441927691357c2b238, type: 3}
   headRight: {fileID: 5879030519747019554, guid: 25c66a954ad7cd441927691357c2b238, type: 3}
   bodyUp: {fileID: -8150692161239652809, guid: 25c66a954ad7cd441927691357c2b238, type: 3}
-  bodyDown: {fileID: 1684029082, guid: 69d8a5763f4ed5f49a4262df12752ac0, type: 3}
+  bodyDown: {fileID: 21300000, guid: 94775eba37a526747b2359b961256e82, type: 3}
   bodyLeft: {fileID: 8943540920285716788, guid: 25c66a954ad7cd441927691357c2b238, type: 3}
   bodyRight: {fileID: -5290479830164994379, guid: 25c66a954ad7cd441927691357c2b238, type: 3}
   saveDefaultRotation: 0
@@ -633,7 +634,7 @@ MonoBehaviour:
   headLeft: {fileID: 1409059356627455167, guid: 25c66a954ad7cd441927691357c2b238, type: 3}
   headRight: {fileID: 5879030519747019554, guid: 25c66a954ad7cd441927691357c2b238, type: 3}
   bodyUp: {fileID: -8150692161239652809, guid: 25c66a954ad7cd441927691357c2b238, type: 3}
-  bodyDown: {fileID: 1684029082, guid: 69d8a5763f4ed5f49a4262df12752ac0, type: 3}
+  bodyDown: {fileID: 21300000, guid: 94775eba37a526747b2359b961256e82, type: 3}
   bodyLeft: {fileID: 8943540920285716788, guid: 25c66a954ad7cd441927691357c2b238, type: 3}
   bodyRight: {fileID: -5290479830164994379, guid: 25c66a954ad7cd441927691357c2b238, type: 3}
   saveDefaultRotation: 0

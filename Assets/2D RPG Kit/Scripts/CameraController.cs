@@ -5,7 +5,7 @@ using UnityEngine.Tilemaps;
 
 public class CameraController : MonoBehaviour {
 
-    [HideInInspector]
+    
     public Transform player;
 
     private GameObject lightSource;
@@ -77,7 +77,8 @@ public class CameraController : MonoBehaviour {
 
 
         //target = PlayerController.instance.transform;
-        player = FindObjectOfType<PlayerController>().transform;
+        //player = FindObjectOfType<PlayerController>().transform;
+        player = GameObject.Find("Player(Clone)").transform;
 
         halfHeight = Camera.main.orthographicSize;
         halfWidth = halfHeight * Camera.main.aspect;
@@ -96,6 +97,8 @@ public class CameraController : MonoBehaviour {
 	
 	// LateUpdate is called once per frame after Update
 	void LateUpdate () {
+        Debug.Log(transform.position);
+        Debug.Log(player.position);
         transform.position = new Vector3(player.position.x, player.position.y, transform.position.z);
 
         //keep the camera inside the bounds

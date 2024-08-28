@@ -24,7 +24,7 @@ public class Credits : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetButtonDown("RPGConfirmPC") || Input.GetButtonDown("RPGConfirmJoy") || Input.GetButtonDown("RPGConfirmTouch"))
+        if (Input.GetButtonDown("Submit") || Input.GetButtonDown("RPGConfirmPC") || Input.GetButtonDown("RPGConfirmJoy") || Input.GetButtonDown("RPGConfirmTouch"))
         {
             StartCoroutine(EndCreditsCo());
             //Destroy(AudioManager.instance.gameObject);

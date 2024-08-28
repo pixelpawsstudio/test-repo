@@ -609,7 +609,14 @@ public class BattleManager : MonoBehaviour
             }
             else
             {
-                activeBattlers[i].anim.SetTrigger("Battle_idle");
+                if (activeBattlers[i].characterName=="Dagma Vulkrath")
+                {
+                    activeBattlers[i].anim.SetTrigger("BossIdle");
+                } else
+                {
+                    activeBattlers[i].anim.SetTrigger("Battle_idle");
+                }
+                
                 if (activeBattlers[i].character)
                 {
                     allPlayersDead = false;
@@ -741,6 +748,7 @@ public class BattleManager : MonoBehaviour
             }
 
             //Instantiate(enemyAttackEffect, activeBattlers[currentTurn].transform.position, activeBattlers[currentTurn].transform.rotation);
+            
             activeBattlers[currentTurn].anim.SetTrigger("Attack");
 
             if (!attackAll)
@@ -960,8 +968,17 @@ public class BattleManager : MonoBehaviour
     public IEnumerator WaitCo(int target)
     {
         yield return new WaitForSeconds(1);
-        activeBattlers[target].anim.SetTrigger("Battle_idle");
-        activeBattlers[currentTurn].anim.SetTrigger("Battle_idle");
+        if (activeBattlers[target].characterName == "Dagma Vulkrath")
+        {
+            activeBattlers[target].anim.SetTrigger("BossIdle");
+            activeBattlers[currentTurn].anim.SetTrigger("BossIdle");
+        }
+        else
+        {
+            activeBattlers[target].anim.SetTrigger("Battle_idle");
+            activeBattlers[currentTurn].anim.SetTrigger("Battle_idle");
+        }
+        
     }
 
     //Method for updating character status
@@ -1170,7 +1187,14 @@ public class BattleManager : MonoBehaviour
         }
         
         yield return new WaitForSeconds(1);
-        activeBattlers[currentTurn].anim.SetTrigger("Battle_idle");
+        if (activeBattlers[currentTurn].characterName =="Dagma Vulkrath")
+        {
+            activeBattlers[currentTurn].anim.SetTrigger("BossIdle");
+        } else
+        {
+            activeBattlers[currentTurn].anim.SetTrigger("Battle_idle");
+        }
+        
         battleMenu.SetActive(false);
 
 

@@ -5957,6 +5957,7 @@ MonoBehaviour:
   choiceBLabel: {fileID: 0}
   dialogChoice: []
   dialogChoiceButton: {fileID: 5469323592420201677, guid: 3a652c711a547c14ca46ad55a2026998, type: 3}
+  SceneName: 
   closeShop: 0
   dontOpenDialogAgain: 0
   addNewPartyMember: 0
@@ -5966,6 +5967,8 @@ MonoBehaviour:
   itemsForSale: []
   innPrice: 0
   NPC: {fileID: 0}
+  transitionTime: 1
+  newPosition: {x: 0, y: 0}
 --- !u!114 &114185734125933696
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -58635,7 +58638,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Tienes la llave, \xBFdeseas usarla?"
+  m_Text: "\xBFDeseas usar la llave?"
 --- !u!114 &93272507346755200
 MonoBehaviour:
   m_ObjectHideFlags: 0

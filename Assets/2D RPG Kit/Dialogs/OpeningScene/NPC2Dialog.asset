@@ -14,10 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   portraits: []
   lines:
-  - //Krontus
+  - //Cana
   - '**'
-  - Hola soy Krontus...
-  - Soy un estudioso de la historia de Reiday...
+  - Hola soy Cana...
+  - Soy una estudiosa de la historia de Reiday...
   - El cristal Aqua viene de las tierras de agua, donde habitan los magos.
   - " Antes de la conquista de nuestras tierras, eramos pa\xEDses muy cercanos, a
     veces son raros\u2026"
