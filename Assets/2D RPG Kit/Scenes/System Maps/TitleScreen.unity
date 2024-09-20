@@ -448,7 +448,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Credits
+  m_Text: "Cr\xE9ditos"
 --- !u!222 &324335980
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1428,7 +1428,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Continue
+  m_Text: Continuar
 --- !u!222 &678598155
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1754,7 +1754,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: New Game
+  m_Text: Juego nuevo
 --- !u!222 &747170167
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1849,7 +1849,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Easy
+  m_Text: "F\xE1cil"
 --- !u!222 &838410741
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2008,7 +2008,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Hard
+  m_Text: "Dif\xEDcil"
 --- !u!222 &983265216
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2141,7 +2141,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Exit Game
+  m_Text: Salir
 --- !u!222 &1128791521
 CanvasRenderer:
   m_ObjectHideFlags: 0

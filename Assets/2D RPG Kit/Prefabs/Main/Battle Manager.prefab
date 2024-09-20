@@ -280,7 +280,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Attack
+  m_Text: Ataque
 --- !u!114 &5535389932714527105
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1583,7 +1583,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Skill
+  m_Text: Habilidad
 --- !u!114 &8366876331037442852
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2925,7 +2925,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Retreat
+  m_Text: Escapar
 --- !u!114 &2905102540081199120
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3669,7 +3669,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Skill
+  m_Text: Habilidad
 --- !u!114 &2348877521447677160
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5482,7 +5482,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Skill
+  m_Text: Habilidad
 --- !u!114 &7002048884845648689
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5609,7 +5609,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Item
+  m_Text: "\xCDtem"
 --- !u!114 &8063450795593615546
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5704,7 +5704,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Skill
+  m_Text: Habilidad
 --- !u!114 &1898440220259586596
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6330,7 +6330,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Skill
+  m_Text: Habilidad
 --- !u!114 &232095178991040136
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6509,7 +6509,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Skill
+  m_Text: Habilidad
 --- !u!114 &3555939031028623392
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8010,7 +8010,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Skill
+  m_Text: Habilidad
 --- !u!114 &1617713940221080264
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14160,7 +14160,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Name
+  m_Text: Nombre
 --- !u!114 &3990941851080990141
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24244,7 +24244,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Name
+  m_Text: Nombre
 --- !u!114 &8161473243835788187
 MonoBehaviour:
   m_ObjectHideFlags: 0

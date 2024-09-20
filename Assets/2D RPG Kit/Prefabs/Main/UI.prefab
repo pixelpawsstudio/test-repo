@@ -238,7 +238,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Strength:'
+  m_Text: 'Fuerza:'
 --- !u!114 &5831826399260485320
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -403,7 +403,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Status
+  m_Text: Estatus
 --- !u!114 &3548230477803965353
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2942,7 +2942,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Description
+  m_Text: "Descripci\xF3n"
 --- !u!114 &5245160847752937037
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3037,7 +3037,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Load
+  m_Text: 'Cargar
 
 '
 --- !u!114 &4899211113261192707
@@ -3134,7 +3134,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Item Name
+  m_Text: "Nombre \xEDtem"
 --- !u!114 &9083842145190068359
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3324,7 +3324,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Close
+  m_Text: Cerrar
 --- !u!114 &4229127646416273612
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3594,7 +3594,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Items Found:'
+  m_Text: "\xCDtems encontrados:"
 --- !u!114 &2686966575029940969
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3689,7 +3689,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Gold:'
+  m_Text: 'Oro:'
 --- !u!1 &1510290124412948
 GameObject:
   m_ObjectHideFlags: 0
@@ -4740,7 +4740,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Buy
+  m_Text: Comprar
 --- !u!114 &3569689856247586907
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4835,7 +4835,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Power:'
+  m_Text: 'Poder:'
 --- !u!114 &5252788586048870912
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5278,7 +5278,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Defense:'
+  m_Text: 'Defensa:'
 --- !u!114 &6427499625130644986
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5373,9 +5373,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Sell Items
-
-'
+  m_Text: "Vender \xEDtems\n"
 --- !u!114 &6563781425289038677
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5702,7 +5700,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Exp to next level:'
+  m_Text: 'Exp para sig nivel:'
 --- !u!1 &1694087456439212
 GameObject:
   m_ObjectHideFlags: 0
@@ -6767,7 +6765,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Power:'
+  m_Text: 'Poder:'
 --- !u!114 &271779984322051926
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7226,7 +7224,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Quit
+  m_Text: Salir
 --- !u!114 &3047836420026628119
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7321,7 +7319,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Exit
+  m_Text: 'Salir
 
 '
 --- !u!114 &5680534135406532255
@@ -7418,7 +7416,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Items
+  m_Text: "\xCDtems"
 --- !u!114 &8768226883748557275
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7600,7 +7598,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Weapon:'
+  m_Text: 'Arma:'
 --- !u!114 &7777615435910992731
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8041,7 +8039,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Gold:'
+  m_Text: 'Oro:'
 --- !u!114 &6453088725083796919
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8136,7 +8134,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Armor:'
+  m_Text: 'Armadura:'
 --- !u!114 &7021814518242014055
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10862,7 +10860,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Description
+  m_Text: "Descripci\xF3n"
 --- !u!114 &1582679360040657243
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11031,7 +11029,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Exp to next level:'
+  m_Text: 'Exp para sig nivel:'
 --- !u!1 &304371911047230408
 GameObject:
   m_ObjectHideFlags: 0
@@ -12429,7 +12427,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: New Skill!
+  m_Text: "\xA1Habilidad nueva!"
 --- !u!114 &110832664793799428
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13714,7 +13712,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Exp to next level:'
+  m_Text: 'Exp para sig nivel:'
 --- !u!1 &558359097462420815
 GameObject:
   m_ObjectHideFlags: 0
@@ -15581,7 +15579,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Got item!
+  m_Text: "\xA1Conseguiste un \xEDtem!"
 --- !u!114 &2187818352695426813
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16929,7 +16927,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Weapon:'
+  m_Text: 'Arma:'
 --- !u!114 &2455667783175553250
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17155,7 +17153,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Weapon:'
+  m_Text: 'Arma:'
 --- !u!114 &2912083962421530178
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17435,7 +17433,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Saving ...
+  m_Text: Guardando partida ...
 --- !u!1 &915212554231025064
 GameObject:
   m_ObjectHideFlags: 0
@@ -18887,7 +18885,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Power:'
+  m_Text: 'Poder:'
 --- !u!114 &7712722304721309044
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22926,7 +22924,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Level Up!
+  m_Text: "\xA1Subes nivel!"
 --- !u!114 &4234206037688287396
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23115,7 +23113,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Back
+  m_Text: Volver
 --- !u!1 &1582798280897603115
 GameObject:
   m_ObjectHideFlags: 0
@@ -26020,7 +26018,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Sell Equipment
+  m_Text: 'Vender equipo
 
 '
 --- !u!114 &7850397454083289625
@@ -26795,7 +26793,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Armor:'
+  m_Text: 'Armadura:'
 --- !u!114 &5329182706189622627
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -29409,7 +29407,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: New Skill!
+  m_Text: "\xA1Habilidad nueva!"
 --- !u!114 &3948099037834785568
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -33230,7 +33228,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Skills
+  m_Text: 'Habilidades
 
 '
 --- !u!114 &5966554981521885071
@@ -35070,7 +35068,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Name
+  m_Text: Nombre
 --- !u!114 &2632232394134851214
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -35339,7 +35337,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Yes
+  m_Text: "S\xED"
 --- !u!114 &4699150244297777023
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -37536,7 +37534,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Power:'
+  m_Text: 'Poder:'
 --- !u!114 &3408442953666466469
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -41126,7 +41124,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Weapon:'
+  m_Text: 'Arma:'
 --- !u!114 &3384698200484131994
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -42423,7 +42421,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Menu
+  m_Text: "Men\xFA"
 --- !u!1 &3938547115414784762
 GameObject:
   m_ObjectHideFlags: 0
@@ -42948,7 +42946,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Description
+  m_Text: "Descripci\xF3n"
 --- !u!114 &722873811674481190
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -43385,7 +43383,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Level Up!
+  m_Text: "\xA1Subes nivel!"
 --- !u!114 &4015552084208777715
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -45710,7 +45708,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Armor:'
+  m_Text: 'Armadura:'
 --- !u!114 &5277321861562686364
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -47395,7 +47393,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Name
+  m_Text: Nombre
 --- !u!114 &9023099090110251825
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -47490,7 +47488,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Power:'
+  m_Text: 'Poder:'
 --- !u!114 &9005771384155170777
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -48892,7 +48890,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Equip
+  m_Text: Equipo
 --- !u!114 &7047501856331987844
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -50054,7 +50052,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Strength:'
+  m_Text: 'Fuerza:'
 --- !u!114 &1896202266932838010
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -51567,7 +51565,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Item Name
+  m_Text: "Nombre \xEDtem"
 --- !u!114 &2328525723806899878
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -53048,7 +53046,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Yes
+  m_Text: "S\xED"
 --- !u!114 &8431394703257507188
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -53404,7 +53402,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Power:'
+  m_Text: 'Poder:'
 --- !u!114 &2001157370524510484
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -58466,7 +58464,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Yes
+  m_Text: "S\xED"
 --- !u!114 &1329190354438967091
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -59129,7 +59127,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Yes
+  m_Text: "S\xED"
 --- !u!114 &1486896238854895406
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -59888,7 +59886,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Exp to next level:'
+  m_Text: 'Exp para sig nivel:'
 --- !u!1 &5864866014287109963
 GameObject:
   m_ObjectHideFlags: 0
@@ -61478,7 +61476,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Do you really want to load?
+  m_Text: "\xBFDeseas cargar la partida?"
 --- !u!114 &1418961474998825798
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -61808,7 +61806,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Item Name
+  m_Text: "Nombre \xEDtem"
 --- !u!114 &4370697400773311434
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -63167,7 +63165,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Armor:'
+  m_Text: 'Armadura:'
 --- !u!114 &3880218424773055536
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -63660,7 +63658,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Yes
+  m_Text: "S\xED"
 --- !u!114 &4030622915912294785
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -64513,7 +64511,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Earned:'
+  m_Text: 'Obtuviste:'
 --- !u!114 &1776967575399330437
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -66081,7 +66079,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Power:'
+  m_Text: 'Poder:'
 --- !u!114 &5836526179784281037
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -67297,7 +67295,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Do you really want to Discard?
+  m_Text: "\xBFDeseas descartar?"
 --- !u!114 &5405078682603957124
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -75239,7 +75237,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Yes
+  m_Text: "S\xED"
 --- !u!114 &4055105351217160117
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -75525,7 +75523,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Do you really want to Quit?
+  m_Text: "\xBFDeseas salir del juego?"
 --- !u!114 &3063060157406366787
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -80277,7 +80275,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Defense:'
+  m_Text: 'Defensa:'
 --- !u!114 &7406106225390887994
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -82167,7 +82165,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Power:'
+  m_Text: 'Poder:'
 --- !u!114 &1989817676132232309
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -84977,7 +84975,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Name
+  m_Text: Nombre
 --- !u!114 &6873016711662196600
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -87555,7 +87553,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Yes
+  m_Text: "S\xED"
 --- !u!114 &2293026140379203987
 MonoBehaviour:
   m_ObjectHideFlags: 0

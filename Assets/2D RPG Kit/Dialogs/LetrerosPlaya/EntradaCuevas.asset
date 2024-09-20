@@ -16,5 +16,9 @@ MonoBehaviour:
   lines:
   - //Letrero viejo
   - '**'
-  - "Entrada a las cuevas vol\xE1nicas. Peligro, tierra de los Gorks de fuego."
+  - "Entrada a las cuevas vol\xE1nicas. Peligro, tierra de los Gorks de fuego"
+  - Entre bajo su propio riesgo
+  - "Si no es una criatura de fuego, le recomendamos la poci\xF3n \xEDgnea pa' no
+    quemarse"
+  - "Aunque est\xE1 medio cari\xF1osa"
   closingMessage: []

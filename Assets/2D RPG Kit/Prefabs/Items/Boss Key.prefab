@@ -105,11 +105,11 @@ MonoBehaviour:
   revive: 0
   offense: 0
   defense: 0
-  itemName: Key
-  description: A simple key
+  itemName: Boss Key
+  description: Llave para abrir entrada al jefe
   price: 999
   sellPrice: 0
-  itemSprite: {fileID: -7833671090200325546, guid: 22dc842bf7f82ea48a24bddfbf8b6e7f, type: 3}
+  itemSprite: {fileID: 21300000, guid: 2170322f568965140a7f10b874f7f10b, type: 3}
   affectHP: 0
   affectMP: 0
   raiseAgility: 0

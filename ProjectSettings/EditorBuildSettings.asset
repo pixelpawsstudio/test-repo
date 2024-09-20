@@ -62,4 +62,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/2D RPG Kit/Scenes/System Maps/CreditsInGame.unity
     guid: 6392c15dc954f6040b36aea9b3ee48a5
+  - enabled: 1
+    path: Assets/2D RPG Kit/Scenes/IchopGame/Jefe.unity
+    guid: ebb8f8c3d883ed34aac4458babda72f4
   m_configObjects: {}

@@ -603,7 +603,17 @@ public class BattleManager : MonoBehaviour
                 }
                 else
                 {
-                    activeBattlers[i].EnemyFade();
+                    if (activeBattlers[i].characterName == "Dagma Vulkrath")
+                    {
+                        activeBattlers[i].anim.SetTrigger("BossDeath");
+                        StartCoroutine(WaitDeathAnimation(activeBattlers[i]));
+                        
+                    } else
+                    {
+                        
+                        activeBattlers[i].EnemyFade();
+                    }
+                    
                 }
 
             }
@@ -665,6 +675,14 @@ public class BattleManager : MonoBehaviour
                 }
             }
         }
+    }
+
+    public IEnumerator WaitDeathAnimation(BattleCharacter battleCharacter)
+    {
+        yield return new WaitForSeconds(2);
+
+        battleCharacter.EnemyFade();
+
     }
 
     //Coroutine to wait some seconds between enemy attacks
@@ -748,8 +766,14 @@ public class BattleManager : MonoBehaviour
             }
 
             //Instantiate(enemyAttackEffect, activeBattlers[currentTurn].transform.position, activeBattlers[currentTurn].transform.rotation);
-            
-            activeBattlers[currentTurn].anim.SetTrigger("Attack");
+            if (activeBattlers[currentTurn].characterName == "Dagma Vulkrath")
+            {
+                activeBattlers[currentTurn].anim.SetTrigger("BossAttack");
+            } else
+            {
+                activeBattlers[currentTurn].anim.SetTrigger("Attack");
+            }
+                
 
             if (!attackAll)
             {
@@ -1179,13 +1203,23 @@ public class BattleManager : MonoBehaviour
 
 
         //Instantiate(enemyAttackEffect, activeBattlers[currentTurn].transform.position, activeBattlers[currentTurn].transform.rotation);
-        activeBattlers[currentTurn].anim.SetTrigger("Attack");
+        if (activeBattlers[currentTurn].characterName == "Dagma Vulkrath")
+        {
+            activeBattlers[currentTurn].anim.SetTrigger("BossAttack");
+        }
+        else
+        {
+            
+            activeBattlers[currentTurn].anim.SetTrigger("Attack");
+            
+        }
         if (!attackAll)
         {
             DealDamage(selectedTarget, movePower, skill);
             activeBattlers[selectedTarget].CheckForEvents();
         }
-        
+
+
         yield return new WaitForSeconds(1);
         if (activeBattlers[currentTurn].characterName =="Dagma Vulkrath")
         {
