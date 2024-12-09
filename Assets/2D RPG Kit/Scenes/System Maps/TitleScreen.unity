@@ -38,7 +38,6 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -179,8 +178,7 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 114476130633195974, guid: de1dfcbb0fed1fa4a87f5d8aa22e9ea0,
-        type: 3}
+    - target: {fileID: 114476130633195974, guid: de1dfcbb0fed1fa4a87f5d8aa22e9ea0, type: 3}
       propertyPath: musicToPlay
       value: 11
       objectReference: {fileID: 0}
@@ -346,7 +344,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 2418c610aeab34d4c955d7041ab44004, type: 3}
+  m_Sprite: {fileID: 21300000, guid: f27960aeda35bb949bd9a1636e89cbdc, type: 3}
   m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -380,7 +378,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &356614840
 RectTransform:
   m_ObjectHideFlags: 0
@@ -500,7 +498,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: by Artjom Riewe 2020 - 2022
+  m_Text: by Pixel Paws Studios 2024
 --- !u!222 &440916664
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -581,7 +579,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 810d1b92a26fe5745b34dc15f956dae2, type: 3}
+  m_Sprite: {fileID: 21300000, guid: b6c177634f38dbb4e8a828ce8dde4dc0, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -634,10 +632,10 @@ RectTransform:
   - {fileID: 747170164}
   m_Father: {fileID: 356614840}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 50, y: -54.2}
-  m_SizeDelta: {x: 418.2, y: 108.4}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 418.2, y: 140}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &572578176
 MonoBehaviour:
@@ -727,7 +725,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 2418c610aeab34d4c955d7041ab44004, type: 3}
+  m_Sprite: {fileID: 21300000, guid: f27960aeda35bb949bd9a1636e89cbdc, type: 3}
   m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -901,10 +899,10 @@ RectTransform:
   - {fileID: 1128791518}
   m_Father: {fileID: 356614840}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 50, y: -271}
-  m_SizeDelta: {x: 418.2, y: 108.4}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 418.2, y: 140}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &605881901
 MonoBehaviour:
@@ -994,7 +992,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 2418c610aeab34d4c955d7041ab44004, type: 3}
+  m_Sprite: {fileID: 21300000, guid: f27960aeda35bb949bd9a1636e89cbdc, type: 3}
   m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1092,10 +1090,10 @@ RectTransform:
   - {fileID: 678598152}
   m_Father: {fileID: 356614840}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 50, y: -162.6}
-  m_SizeDelta: {x: 418.2, y: 108.4}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 418.2, y: 140}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &614055138
 MonoBehaviour:
@@ -1185,7 +1183,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 2418c610aeab34d4c955d7041ab44004, type: 3}
+  m_Sprite: {fileID: 21300000, guid: f27960aeda35bb949bd9a1636e89cbdc, type: 3}
   m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1283,8 +1281,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 12.5}
+  m_SizeDelta: {x: 0, y: 25}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &678598153
 MonoBehaviour:
@@ -1376,7 +1374,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   music: 11
-  newGameScene: Room
+  newGameScene: OpeningCinematicVideo
   continueButton: {fileID: 614055136}
   mainMenu: {fileID: 356614839}
   difficultySettings: {fileID: 1046321193}
@@ -1550,7 +1548,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Arktentrion
+  m_Text: Pixel Paws Studios
 --- !u!222 &744328739
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1609,8 +1607,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 12.5}
+  m_SizeDelta: {x: 0, y: 25}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &747170165
 MonoBehaviour:
@@ -1996,8 +1994,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 12.5}
+  m_SizeDelta: {x: 0, y: 25}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1128791519
 MonoBehaviour:
@@ -2340,7 +2338,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 2418c610aeab34d4c955d7041ab44004, type: 3}
+  m_Sprite: {fileID: 21300000, guid: f27960aeda35bb949bd9a1636e89cbdc, type: 3}
   m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2429,7 +2427,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Ver 3.0
+  m_Text: Ver 0.0
 --- !u!222 &1428173862
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2743,7 +2741,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 2418c610aeab34d4c955d7041ab44004, type: 3}
+  m_Sprite: {fileID: 21300000, guid: f27960aeda35bb949bd9a1636e89cbdc, type: 3}
   m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2874,7 +2872,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1878868892
 RectTransform:
   m_ObjectHideFlags: 0

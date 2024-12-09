@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class MainObjectsLoader : MonoBehaviour {
 
@@ -24,6 +25,7 @@ public class MainObjectsLoader : MonoBehaviour {
 
         if (PlayerController.instance == null)
         {
+            
             PlayerController clone = Instantiate(player).GetComponent<PlayerController>();
             PlayerController.instance = clone;
             playerStart = GameObject.Find("Player Start");

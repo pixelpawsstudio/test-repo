@@ -16,7 +16,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &4614331974979114
 Transform:
   m_ObjectHideFlags: 0
@@ -44,10 +44,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c76952862b77b3a498c16adc915c1bcf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  activeInParty: 0
+  activeInParty: 1
   characterName: 
-  battleCharacter: {fileID: 114936555224100760, guid: 4328a21e0bda083459640c15c86b0706,
-    type: 3}
+  battleCharacter: {fileID: 114936555224100760, guid: 9fcf2bdc50512044fa9742b401444d5d, type: 3}
   level: 1
   maxLevel: 99
   currentHP: 23
@@ -60,7 +59,7 @@ MonoBehaviour:
   firstNextLevelEXP: 17
   multiplicationFactor: 1.06
   manualEXP: 0
-  eXPToNextLevel: 
+  eXPToNextLevel: 00000000100000001e0000002d000000
   manualHpBonus: 0
   HpLevelBonus: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
   manualSpBonus: 0
@@ -174,8 +173,7 @@ MonoBehaviour:
   critical: 6
   equippedOffenseItem: 
   equippedDefenseItem: 
-  characterIamge: {fileID: 2434629766918126224, guid: 5dee9006179220145ba7295536490dbc,
-    type: 3}
+  characterIamge: {fileID: 21300000, guid: 05775d87a1ab161458d74b580049c509, type: 3}
   poisoned: 0
   silenced: 0
 --- !u!1 &1190594902282344
@@ -229,8 +227,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c18f511f74eb2254592c491f3e6427f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  toolbar: 2
-  currentTab: Inventory
+  toolbar: 1
+  currentTab: Items
   characterSlots:
   - {fileID: 1674758041330280}
   - {fileID: 1059803243072380}
@@ -274,6 +272,11 @@ MonoBehaviour:
   - {fileID: 114774137024542062, guid: 1db0ec4c63b1e744a956d28f292eb97c, type: 3}
   - {fileID: 114774137024542062, guid: a03d9ab26ef458b4687ad17671d5256f, type: 3}
   - {fileID: 114378626586349076, guid: f193ca26bc8eea64aa531ad52a7a167e, type: 3}
+  - {fileID: 114774137024542062, guid: 48426bc6edbf89b4eb72d1ea1f9ffc1f, type: 3}
+  - {fileID: 114378626586349076, guid: ecc892218ecde0c4ba35ee17c8006c7e, type: 3}
+  - {fileID: 114774137024542062, guid: 4ed529693a48b7d4bad412dd6bbf132b, type: 3}
+  - {fileID: 114043814178531382, guid: b25b1a0692cf4bd4493634f4e56beeca, type: 3}
+  - {fileID: 114043814178531382, guid: a5ac8e8c6503e694e830181216b87502, type: 3}
   itemsInInventory:
   - {fileID: 114774137024542062, guid: a7b4b1d88b65cf34baa3634512ccd0bb, type: 3}
   - {fileID: 114378626586349076, guid: 26e1e121bffd9124991f910e445b649e, type: 3}
@@ -352,6 +355,8 @@ MonoBehaviour:
   - Overworld
   - Overworld1
   - Inn
+  - key1Found
+  - AquaCrystalCheck
   openedChests: 
 --- !u!114 &114145718813029494
 MonoBehaviour:
@@ -377,11 +382,12 @@ MonoBehaviour:
   - Switch 2
   - Switch 3
   - Defeat Gourmet
-  - 
-  - 
-  - 
-  - 
-  - 
+  - First Battle Complete
+  - NemiliaFollowsYou
+  - FindKey1
+  - FindAquaCrystal
+  - BuildGunWithCrystal
+  - FindIgneusPot
   - 
   - 
   - 
@@ -485,8 +491,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   activeInParty: 0
   characterName: 
-  battleCharacter: {fileID: 114936555224100760, guid: f17e04cb1413faf49b2c8a8cd2347a84,
-    type: 3}
+  battleCharacter: {fileID: 114936555224100760, guid: f17e04cb1413faf49b2c8a8cd2347a84, type: 3}
   level: 3
   maxLevel: 99
   currentHP: 30
@@ -613,8 +618,7 @@ MonoBehaviour:
   critical: 12
   equippedOffenseItem: 
   equippedDefenseItem: 
-  characterIamge: {fileID: 8558633213039616950, guid: 5dee9006179220145ba7295536490dbc,
-    type: 3}
+  characterIamge: {fileID: 8558633213039616950, guid: 5dee9006179220145ba7295536490dbc, type: 3}
   poisoned: 0
   silenced: 0
 --- !u!1 &1674758041330280
@@ -664,8 +668,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   activeInParty: 1
   characterName: 
-  battleCharacter: {fileID: 114017839349114026, guid: ecea49df1db86304a90af0bfb696f2ae,
-    type: 3}
+  battleCharacter: {fileID: 114017839349114026, guid: ecea49df1db86304a90af0bfb696f2ae, type: 3}
   level: 1
   maxLevel: 99
   currentHP: 25
@@ -674,7 +677,7 @@ MonoBehaviour:
   maxSP: 20
   currentEXP: 0
   skills:
-  - {fileID: 3808743505478804103, guid: cc133656ae6cb1240b325a1c58efec5e, type: 3}
+  - {fileID: 3808743505478804103, guid: d0ba8c3b651e4054aaf63b5664733522, type: 3}
   firstNextLevelEXP: 15
   multiplicationFactor: 1.05
   manualEXP: 0
@@ -785,15 +788,14 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   agility: 15
-  strength: 15
+  strength: 5
   defence: 12
   offenseStrength: 0
   defenseStrength: 0
   critical: 9
   equippedOffenseItem: 
   equippedDefenseItem: 
-  characterIamge: {fileID: 699703873648253923, guid: 5dee9006179220145ba7295536490dbc,
-    type: 3}
+  characterIamge: {fileID: 21300000, guid: 3005640d9ac5a7840b01de92c0c68c8a, type: 3}
   poisoned: 0
   silenced: 0
 --- !u!61 &5972835153688257000
@@ -887,8 +889,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   activeInParty: 0
   characterName: 
-  battleCharacter: {fileID: 114017839349114026, guid: 677b5a5140259fe4b9057ea872fa5953,
-    type: 3}
+  battleCharacter: {fileID: 114017839349114026, guid: 677b5a5140259fe4b9057ea872fa5953, type: 3}
   level: 3
   maxLevel: 99
   currentHP: 30
@@ -1015,7 +1016,6 @@ MonoBehaviour:
   critical: 9
   equippedOffenseItem: 
   equippedDefenseItem: 
-  characterIamge: {fileID: -7214362519570876188, guid: 5f9c6213e97ae28468411d896f31d404,
-    type: 3}
+  characterIamge: {fileID: -7214362519570876188, guid: 5f9c6213e97ae28468411d896f31d404, type: 3}
   poisoned: 0
   silenced: 0

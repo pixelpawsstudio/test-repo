@@ -1,0 +1,135 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6487729609366302093
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6306695972092215965}
+  - component: {fileID: 1204552217582279106}
+  - component: {fileID: 6525573397410544328}
+  m_Layer: 0
+  m_Name: VillageBattleArea
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6306695972092215965
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6487729609366302093}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1204552217582279106
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6487729609366302093}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.27256203, y: 0.7949686}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 11.266447, y: 7.3143215}
+  m_EdgeRadius: 0
+--- !u!114 &6525573397410544328
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6487729609366302093}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd69dda360402ee46997ba454dde2ee8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  encounterRateEasy: 0
+  encounterRateNormal: 0
+  encounterRateHard: 0
+  randomBattles:
+  - enemies:
+    - Gork
+    rewardXP: 50
+    rewardGold: 20
+    rewardItems: []
+    rewardEquipItems: []
+  - enemies:
+    - Gork
+    - Gork
+    rewardXP: 100
+    rewardGold: 50
+    rewardItems: []
+    rewardEquipItems: []
+  - enemies:
+    - Gork
+    - Gork
+    - Gork
+    rewardXP: 250
+    rewardGold: 100
+    rewardItems: []
+    rewardEquipItems: []
+  battleBG: {fileID: 21300000, guid: e6aaaf5c8e9e5fb4285c38b49594d67a, type: 3}
+  battleMusicIntro: 0
+  battleMusic: 1
+  victoryMusicIntro: 13
+  victoryMusic: 14
+  activateOnEnter: 1
+  activateOnExit: 1
+  singleBattle: 0
+  unbeatable: 0
+  noRetreat: 0
+  completeQuest: 0
+  QuestToComplete: 
+  encounterRate: 0
+  battleCollider: {fileID: 0}
+  countdown: 0
+  onBattleStart:
+    m_PersistentCalls:
+      m_Calls: []

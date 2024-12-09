@@ -101,6 +101,8 @@ public class DialogStarter : MonoBehaviour {
     public string questToMark;
     [Tooltip("Mark a quest as complete after the dialog")]
     public bool markComplete;
+    [Tooltip("Mark a quest as complete after the dialog")]
+    public bool changeScene;
 
     [Header("Event Settings")]
     //For completing quests after dialog
@@ -113,6 +115,8 @@ public class DialogStarter : MonoBehaviour {
     public UnityEvent onCanActivate;
     public UnityEvent onDialogStart;
 
+    [Tooltip("Enter the scene name")]
+    public string scene;
 
     // Use this for initialization
     void Start () 
@@ -295,15 +299,22 @@ public class DialogStarter : MonoBehaviour {
                         {
                             DialogManager.instance.ActivateEventAtEnd(eventToMark, markEventComplete);
                         }
+
                         
+                        if (changeScene)
+                        {
+                            DialogManager.instance.ShouldChangeScene(scene);
+                        }
+
                     }
                 }
             }
         }
 
         //Check for button input
-        if (Input.GetButtonDown("RPGConfirmPC") || Input.GetButtonDown("RPGConfirmJoy") || CrossPlatformInputManager.GetButtonDown("RPGConfirmTouch") && !DialogManager.instance.dialogBox.activeInHierarchy)
+        if (Input.GetButtonDown("Submit"))
         {
+            Debug.Log("Presionando enter");
             
             if (canActivate && !DialogManager.instance.dialogBox.activeInHierarchy && !Inn.instance.innMenu.activeInHierarchy && !GameMenu.instance.menu.activeInHierarchy && !GameManager.instance.battleActive)
             {
@@ -488,6 +499,12 @@ public class DialogStarter : MonoBehaviour {
                         if (markEventComplete)
                         {
                             DialogManager.instance.ActivateEventAtEnd(eventToMark, markEventComplete);
+                        }
+
+                       
+                        if (changeScene)
+                        {
+                            DialogManager.instance.ShouldChangeScene(scene);
                         }
                         
                     }                    

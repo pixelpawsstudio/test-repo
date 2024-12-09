@@ -55,7 +55,7 @@ public class Shop : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        if (Input.GetButtonDown("RPGCanclePC") || Input.GetButtonDown("RPGCancleJoy"))
+        if (Input.GetKeyDown(KeyCode.C))
         {
             if (shopMenu.activeInHierarchy)
             {

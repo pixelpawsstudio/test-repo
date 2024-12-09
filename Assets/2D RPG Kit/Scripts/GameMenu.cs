@@ -93,6 +93,10 @@ public class GameMenu : MonoBehaviour {
     public GameObject[] itemSilenceText;
     public GameObject[] skillPoisonText;
     public GameObject[] skillSilenceText;
+    public GameObject decisionMessage;
+    public Button decisionYes;
+    public Button decisionNo;
+    public Text decisionText;
 
     //Event sytsem
     public EventSystem es;
@@ -161,23 +165,34 @@ public class GameMenu : MonoBehaviour {
     public int openMenuButtonSound;
     public int cancelButtonSound;
     
+    public GateKeyChecker gateKeyChecker;
+    
 
     // Use this for initialization
     void Start () {
 
         instance = this;
+
+        if(GameObject.Find("Gate") != null) 
+            gateKeyChecker = GameObject.Find("Gate").GetComponent<GateKeyChecker>();
         
     }
 	
 	// Update is called once per frame
 	void Update () {
+        if (GameObject.Find("Gate") != null)
+            gateKeyChecker = GameObject.Find("Gate").GetComponent<GateKeyChecker>();
+
+        OpenGate();
 
         //Open game menu
-        if (Input.GetButtonDown("RPGMenuPC") || Input.GetButtonDown("RPGMenuJoy"))
+        if (Input.GetKeyDown(KeyCode.Q))
         {
+            Debug.Log("Abriendo menu");
             //Check if game menu can be opened. For example the game menu should not open during dialog or battle
-            if (ScreenFade.instance.fading == false && !GameManager.instance.battleActive && !GameManager.instance.dialogActive && !GameManager.instance.shopActive && !GameManager.instance.innActive && !GameManager.instance.saveMenuActive && !GameManager.instance.cutSceneActive)
+            if (ScreenFade.instance.fading == false && !GameManager.instance.battleActive && !GameManager.instance.dialogActive && !GameManager.instance.shopActive && !GameManager.instance.innActive && !GameManager.instance.saveMenuActive && !GameManager.instance.gameMenuOpen)
             {
+
                 if (!menu.activeInHierarchy)
                 {
                     AudioManager.instance.PlaySFX(openMenuButtonSound);
@@ -198,6 +213,8 @@ public class GameMenu : MonoBehaviour {
                         EventSystem.current.SetSelectedGameObject(null);
                     }
                 }
+
+                Debug.Log("activandoooo");
                     menu.SetActive(true);
                     UpdateMainStats();
                     GameManager.instance.gameMenuOpen = true;
@@ -216,9 +233,10 @@ public class GameMenu : MonoBehaviour {
         }
         
         //Close game menu
-        if (!GameManager.instance.battleActive)
+        if (!GameManager.instance.battleActive && GameManager.instance.gameMenuOpen)
         {
-            if (Input.GetButtonDown("RPGCanclePC") || Input.GetButtonDown("RPGCancleJoy"))
+            Debug.Log("Desactivando menu");
+            if (Input.GetKeyDown(KeyCode.E))
             {
                 if (GameManager.instance.gameMenuOpen)
                 {
@@ -562,6 +580,7 @@ public class GameMenu : MonoBehaviour {
             EventSystem.current.SetSelectedGameObject(null);
             touchBackButton.SetActive(true);
         }        
+
 
         menu.SetActive(true);
         UpdateMainStats();
@@ -2092,5 +2111,13 @@ public class GameMenu : MonoBehaviour {
             equipItemDescription.text = "";
             
         }
+
+        
+    }
+    public void OpenGate()
+    {
+        Debug.Log("OpenGate desde Game Menu");
+        if(gateKeyChecker!= null)
+            decisionYes.onClick.AddListener(gateKeyChecker.OpenGate);
     }
 }

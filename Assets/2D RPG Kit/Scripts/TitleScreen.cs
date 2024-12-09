@@ -58,7 +58,7 @@ public class TitleScreen : MonoBehaviour {
         //PlayerController.instance.canMove = false;
         
 
-        if (Input.GetButtonDown("RPGConfirmPC") || Input.GetButtonDown("RPGConfirmJoy") || Input.GetButtonDown("Submit"))
+        if (Input.GetButtonDown("Submit"))
             
         {
             if (!mainMenu.activeInHierarchy)

@@ -24,13 +24,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1757630503899957401}
+  serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0.901, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5171780444615484055}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &5878740650887199762
 SpriteRenderer:
@@ -71,10 +71,9 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -76193021
-  m_SortingLayer: 2
+  m_SortingLayer: 0
   m_SortingOrder: 2
-  m_Sprite: {fileID: 1409059356627455167, guid: 25c66a954ad7cd441927691357c2b238,
-    type: 3}
+  m_Sprite: {fileID: 1409059356627455167, guid: 25c66a954ad7cd441927691357c2b238, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -112,6 +111,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5171780444615484059}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -2.11, y: 1.28, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -119,7 +119,6 @@ Transform:
   m_Children:
   - {fileID: 2655087366159899897}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &5171780444615484056
 SpriteRenderer:
@@ -159,11 +158,10 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -76193021
-  m_SortingLayer: 2
+  m_SortingLayerID: 1314224323
+  m_SortingLayer: 1
   m_SortingOrder: -1
-  m_Sprite: {fileID: 8943540920285716788, guid: 25c66a954ad7cd441927691357c2b238,
-    type: 3}
+  m_Sprite: {fileID: 8943540920285716788, guid: 25c66a954ad7cd441927691357c2b238, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -184,10 +182,29 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.24852538, y: -0.114794135}
+  m_Offset: {x: -0.89466214, y: 0.0725857}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -198,7 +215,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.97992516, y: 1.427861}
+  m_Size: {x: 2.2721987, y: 1.1047924}
   m_EdgeRadius: 0
 --- !u!114 &5171780444615484054
 MonoBehaviour:
@@ -218,32 +235,15 @@ MonoBehaviour:
   bodySpriteRenderer: {fileID: 5171780444615484056}
   headUp: {fileID: 409452382209452902, guid: 25c66a954ad7cd441927691357c2b238, type: 3}
   headDown: {fileID: 659580568616700208, guid: 25c66a954ad7cd441927691357c2b238, type: 3}
-  headLeft: {fileID: 1409059356627455167, guid: 25c66a954ad7cd441927691357c2b238,
-    type: 3}
-  headRight: {fileID: 5879030519747019554, guid: 25c66a954ad7cd441927691357c2b238,
-    type: 3}
+  headLeft: {fileID: 1409059356627455167, guid: 25c66a954ad7cd441927691357c2b238, type: 3}
+  headRight: {fileID: 5879030519747019554, guid: 25c66a954ad7cd441927691357c2b238, type: 3}
   bodyUp: {fileID: -8150692161239652809, guid: 25c66a954ad7cd441927691357c2b238, type: 3}
-  bodyDown: {fileID: -8208199307919308370, guid: 25c66a954ad7cd441927691357c2b238,
-    type: 3}
-  bodyLeft: {fileID: 8943540920285716788, guid: 25c66a954ad7cd441927691357c2b238,
-    type: 3}
-  bodyRight: {fileID: -5290479830164994379, guid: 25c66a954ad7cd441927691357c2b238,
-    type: 3}
+  bodyDown: {fileID: -8208199307919308370, guid: 25c66a954ad7cd441927691357c2b238, type: 3}
+  bodyLeft: {fileID: 8943540920285716788, guid: 25c66a954ad7cd441927691357c2b238, type: 3}
+  bodyRight: {fileID: -5290479830164994379, guid: 25c66a954ad7cd441927691357c2b238, type: 3}
   saveDefaultRotation: 0
-  portraits: []
-  lines:
-  - //SHOP KEEPER
-  - '**'
-  - Welcome!
-  dialog: {fileID: 11400000, guid: ce21e202e84437145a5b49e01369df8d, type: 2}
-  ChoiceAText: 
-  choiceA: {fileID: 0}
-  ChoiceBText: 
-  choiceB: {fileID: 0}
-  finalMessage:
-  - //Shop keeper
-  - '**'
-  - Good bye!
+  dialog: {fileID: 11400000, guid: 296ff25d8eeae524b8567184e01e31b9, type: 2}
+  dialogChoices: []
   activateOnAwake: 0
   activateOnButtonPress: 1
   activateOnEnter: 0
@@ -256,25 +256,25 @@ MonoBehaviour:
   isInn: 0
   innPrice: 0
   isShop: 1
-  ItemsForSale:
-  - Ether
-  - Potion
-  - Revive
-  - Shield
-  - Sword
-  - 
-  - 
-  - 
-  - 
-  - 
+  shopItems:
+  - {fileID: 114378626586349076, guid: 26e1e121bffd9124991f910e445b649e, type: 3}
+  - {fileID: 114774137024542062, guid: a7b4b1d88b65cf34baa3634512ccd0bb, type: 3}
+  - {fileID: 114774137024542062, guid: a09f0bc9df97ac4429fd49e029e1d598, type: 3}
+  - {fileID: 114774137024542062, guid: e577f80afa0643846a26c0c1dd996b3f, type: 3}
+  - {fileID: 114378626586349076, guid: f193ca26bc8eea64aa531ad52a7a167e, type: 3}
+  - {fileID: 114774137024542062, guid: 1db0ec4c63b1e744a956d28f292eb97c, type: 3}
+  - {fileID: 114774137024542062, guid: a03d9ab26ef458b4687ad17671d5256f, type: 3}
+  - {fileID: 114126653972101484, guid: 125c20b1bd9a1124a8ef6d3ea3522635, type: 3}
+  - {fileID: 114043814178531382, guid: 8767ec0556333f549998000557dcbc31, type: 3}
+  - {fileID: 0}
   receiveItem: 0
   itemToReceive: {fileID: 0}
   giveItem: 0
   itemToGive: {fileID: 0}
   receiveGold: 0
   goldAmount: 0
-  questToMark: 
-  markComplete: 0
+  questToMark: Visit shop
+  markComplete: 1
   eventToMark: 
   markEventComplete: 0
   onCanActivate:
@@ -293,6 +293,25 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
